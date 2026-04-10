@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title or site.name }}</title>
+<meta name="description" content="{{ description or site.defaultDescription }}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ site.baseUrl }}{{ permalink or page.url }}">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{{ title or site.name }}">
+<meta property="og:description" content="{{ description or site.defaultDescription }}">
+<meta property="og:url" content="{{ site.baseUrl }}{{ permalink or page.url }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ title or site.name }}">
+<meta name="twitter:description" content="{{ description or site.defaultDescription }}">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ site.name }}",
+  "description": "{{ site.defaultDescription }}",
+  "url": "{{ site.baseUrl }}",
+  "email": "{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
+  "areaServed": "Greater Toronto Area"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+
+{% include "nav.njk" %}
+
+{{ content | safe }}
+
+{% include "footer.njk" %}
+
+<script src="/public/js/main.js"></script>
+</body>
+</html>
