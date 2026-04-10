@@ -1,0 +1,12 @@
+{
+  "name": "vullnet-nura-group",
+  "version": "1.0.0",
+  "description": "Vullnet Nura Group website",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
