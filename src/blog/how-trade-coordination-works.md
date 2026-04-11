@@ -1,7 +1,7 @@
 ---
 layout: blog-post.njk
 title: "How Trade Coordination Actually Works on a Multi-Scope Commercial Project"
-description: "When five trades are on site at once, someone has to own the schedule. Here's what real trade coordination looks like — and what it costs you when it's missing."
+description: "When five trades are on site at once, someone has to own the schedule. Here's what real trade coordination looks like, and what it costs you when it's missing."
 date: 2026-04-06
 tags: [blog]
 readTime: 6
@@ -26,11 +26,11 @@ Real trade coordination means:
 - Authority to re-sequence work when something slips
 - Communication to all affected parties when the sequence changes
 
-Without this, a multi-trade project doesn't have a schedule — it has a series of individual trades each working their own plan, occasionally colliding.
+Without this, a multi-trade project doesn't have a schedule; it has a series of individual trades each working their own plan, occasionally colliding.
 
 ## What Happens Without It
 
-The most common failure mode is the domino delay. One trade runs three days behind. They don't flag it because they think they'll recover. The next trade shows up as scheduled, finds the space isn't ready, and demobilizes. Re-mobilization is two days out. Now you're five days behind. By the time this cascades through three trades, a three-day slip has become a two-week delay — and nobody called it before it happened.
+The most common failure mode is the domino delay. One trade runs three days behind. They don't flag it because they think they'll recover. The next trade shows up as scheduled, finds the space isn't ready, and demobilizes. Re-mobilization is two days out. Now you're five days behind. By the time this cascades through three trades, a three-day slip has become a two-week delay, and nobody called it before it happened.
 
 The second common failure mode is spatial conflict. Electricians rough in conduit through a wall cavity that the plumber also needs. One of them has to move their work. This costs a day and generates a disputed change order because neither trade considers it their problem.
 
@@ -38,13 +38,13 @@ The second common failure mode is spatial conflict. Electricians rough in condui
 
 On a well-run commercial renovation, the trade sequence is planned before the first truck rolls:
 
-1. Demo — clear the way, no debris left
-2. Rough framing — new partitions, headers, backing
-3. MEP rough-in — electrical, plumbing, HVAC in a coordinated sequence
-4. Inspections — rough-in inspection before covering walls
+1. Demo: clear the way, no debris left
+2. Rough framing: new partitions, headers, backing
+3. MEP rough-in: electrical, plumbing, HVAC in a coordinated sequence
+4. Inspections: rough-in inspection before covering walls
 5. Insulation
 6. Drywall hang, tape, finish
-7. MEP trim — devices, fixtures, diffusers
+7. MEP trim: devices, fixtures, diffusers
 8. Ceiling grid
 9. Flooring
 10. Millwork and built-ins
@@ -61,7 +61,7 @@ Don't ask "do you coordinate trades?" Ask these instead:
 - Walk me through the last project where a trade fell behind. What did you do?
 - Do you have preferred trade partners, or do you re-bid every project?
 
-The last question matters. Contractors who work with the same trade partners repeatedly have established communication rhythms and known capabilities. Contractors who re-bid every project are coordinating strangers — which is harder and slower.
+The last question matters. Contractors who work with the same trade partners repeatedly have established communication rhythms and known capabilities. Contractors who re-bid every project are coordinating strangers, which is harder and slower.
 
 ## The Scaling Question
 

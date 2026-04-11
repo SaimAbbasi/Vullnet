@@ -1,7 +1,7 @@
 ---
 layout: blog-post.njk
 title: "What Is Tenant Improvement Work and Who Manages It?"
-description: "TI explained for building owners and commercial tenants — who pays, who manages, and what a good TI contractor actually delivers."
+description: "TI explained for building owners and commercial tenants: who pays, who manages, and what a good TI contractor actually delivers."
 date: 2026-03-25
 tags: [blog]
 readTime: 5
@@ -13,13 +13,13 @@ furtherReading:
     url: /blog/how-to-choose-commercial-renovation-contractor-toronto/
 ---
 
-If you're negotiating a commercial lease in Ontario, you'll encounter the term "tenant improvement allowance" — or TI. It's one of the most commonly misunderstood elements of a commercial lease, and getting it wrong can cost both tenants and building owners significantly.
+If you're negotiating a commercial lease in Ontario, you'll encounter the term "tenant improvement allowance," or TI. It's one of the most commonly misunderstood elements of a commercial lease, and getting it wrong can cost both tenants and building owners significantly.
 
 ## What Tenant Improvement Work Actually Is
 
 Tenant improvement (TI) work refers to the modifications made to a commercial space to make it suitable for a specific tenant's use. This might include partition walls, flooring, ceilings, lighting, millwork, and sometimes plumbing or HVAC upgrades.
 
-The base building — the shell, structure, exterior, and core MEP systems — is the landlord's responsibility. Everything inside the leased space that needs to be customized for the tenant is, broadly, tenant improvement work.
+The base building (the shell, structure, exterior, and core MEP systems) is the landlord's responsibility. Everything inside the leased space that needs to be customized for the tenant is, broadly, tenant improvement work.
 
 ## Who Pays for TI?
 
@@ -39,7 +39,7 @@ This is often where things go sideways. Tenants who aren't experienced in constr
 
 Even when the tenant manages the TI renovation, the landlord typically has approval rights over the contractor, the scope, and the plans. Most landlords require permits to be pulled and want assurance that base building systems won't be compromised.
 
-Some landlords require the use of their approved contractor list. This isn't always in the tenant's best interest — approved lists sometimes favor contractors who protect the landlord's asset over contractors who deliver for the tenant's timeline.
+Some landlords require the use of their approved contractor list. This isn't always in the tenant's best interest, as approved lists sometimes favor contractors who protect the landlord's asset over contractors who deliver for the tenant's timeline.
 
 ## What a Good TI Contractor Delivers
 

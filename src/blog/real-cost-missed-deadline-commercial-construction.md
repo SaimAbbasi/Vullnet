@@ -19,7 +19,7 @@ When a commercial renovation misses its handover date, the conversation usually 
 
 **Holdover rent or swing space extension.** If a tenant is paying for temporary space while their renovation completes, every week of delay is a direct cash cost. In the GTA commercial market, swing space for a 5,000 sq ft team runs $15,000–$40,000 per month. A two-week delay costs real money.
 
-**Delayed opening revenue.** For retail and restaurant operators, the revenue clock doesn't start until doors open. A two-week delay isn't just two weeks of lost revenue — it's two weeks of continued staffing costs, lease obligations, and supplier commitments with nothing coming in.
+**Delayed opening revenue.** For retail and restaurant operators, the revenue clock doesn't start until doors open. A two-week delay isn't just two weeks of lost revenue; it's two weeks of continued staffing costs, lease obligations, and supplier commitments with nothing coming in.
 
 **Penalty clauses.** Some leases and construction contracts include penalty provisions for late handover. Even when they don't, there's often a negotiated resolution that costs the owner something.
 

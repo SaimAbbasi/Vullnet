@@ -1,7 +1,7 @@
 ---
 layout: blog-post.njk
 title: "Commercial Drywall: Why Framing Quality Determines Your Finish"
-description: "Most finish problems start at framing. Here's what in-house drywall crews do differently — and why it matters for your handover date."
+description: "Most finish problems start at framing. Here's what in-house drywall crews do differently, and why it matters for your handover date."
 date: 2026-04-01
 tags: [blog]
 readTime: 5
@@ -13,7 +13,7 @@ furtherReading:
     url: /values
 ---
 
-Walk through a freshly completed commercial renovation and the quality of the drywall finish is one of the first things you'll notice — or more accurately, the first thing you'll notice if something went wrong. Waves in painted walls, tape seams that show through the finish coat, corners that aren't quite plumb. These aren't painting problems. They're framing problems.
+Walk through a freshly completed commercial renovation and the quality of the drywall finish is one of the first things you'll notice, or more accurately, the first thing you'll notice if something went wrong. Waves in painted walls, tape seams that show through the finish coat, corners that aren't quite plumb. These aren't painting problems. They're framing problems.
 
 ## The Drywall Chain
 
@@ -32,7 +32,7 @@ When framing is subcontracted to the lowest bidder, the incentive structure work
 - Headers and transitions that aren't square, which telegraphs through finish
 - Fastener patterns that don't match fire-rating requirements, creating inspection delays
 
-These issues don't usually show up until the painter's second coat, by which point addressing them means sanding, re-taping, re-coating, and repainting — a week of rework on a schedule that didn't have it.
+These issues don't usually show up until the painter's second coat, by which point addressing them means sanding, re-taping, re-coating, and repainting: a week of rework on a schedule that didn't have it.
 
 ## What In-House Crews Do Differently
 
@@ -58,6 +58,6 @@ If the framing doesn't pass these checks, raising it before drywall goes up cost
 
 ## The Schedule Consequence
 
-Beyond quality, framing pace controls the entire project timeline. Every day drywall hang is delayed is a day tape is delayed, which is a day paint is delayed. Framing is early on the critical path — small delays there amplify.
+Beyond quality, framing pace controls the entire project timeline. Every day drywall hang is delayed is a day tape is delayed, which is a day paint is delayed. Framing is early on the critical path; small delays there amplify.
 
 A framing crew that moves with discipline and accuracy sets the rhythm for everything that follows.

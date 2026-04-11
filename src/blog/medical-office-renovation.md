@@ -26,7 +26,7 @@ These include:
 - Daily cleaning protocols
 - Sealed HVAC returns to prevent dust spread into occupied areas
 
-A contractor who hasn't done this before will nod and agree. Then on day two, a worker walks through the waiting room in work boots. That's not just a quality issue — in a medical environment, it's a serious problem.
+A contractor who hasn't done this before will nod and agree. Then on day two, a worker walks through the waiting room in work boots. That's not just a quality issue; in a medical environment, it's a serious problem.
 
 ## HVAC Requirements
 
@@ -50,7 +50,7 @@ If the renovation involves a clinic that needs to stay partially operational, pa
 
 - Have you completed medical office or clinical renovations? Can you provide references?
 - Are you familiar with ICRA protocols and have you implemented them on-site?
-- Do you have trades with medical project experience — specifically plumbing and HVAC?
+- Do you have trades with medical project experience, specifically plumbing and HVAC?
 - Can you work to AODA/OBC barrier-free requirements?
 - How do you manage phasing in a live clinical environment?
 

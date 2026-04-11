@@ -13,7 +13,7 @@ furtherReading:
     url: /process
 ---
 
-Restaurant renovations are among the most operationally complex scopes in commercial construction. Dense MEP systems, health code requirements, tight timelines driven by operator revenue needs, and the physical demands of a commercial kitchen — all of it converges in a space that's often smaller than a suburban living room.
+Restaurant renovations are among the most operationally complex scopes in commercial construction. Dense MEP systems, health code requirements, tight timelines driven by operator revenue needs, and the physical demands of a commercial kitchen; all of it converges in a space that's often smaller than a suburban living room.
 
 ## Why Restaurants Are Harder
 
@@ -34,15 +34,15 @@ A full restaurant renovation from shell generally runs in this sequence:
 
 1. Permit drawing approval (2–4 weeks depending on municipality)
 2. Demolition of existing fit-out
-3. Rough plumbing — floor drains, grease trap, hand wash rough-in
+3. Rough plumbing: floor drains, grease trap, hand wash rough-in
 4. Gas rough-in
-5. Electrical rough-in — panels, conduit, equipment circuits
-6. Mechanical rough-in — HVAC duct, exhaust, make-up air
+5. Electrical rough-in: panels, conduit, equipment circuits
+6. Mechanical rough-in: HVAC duct, exhaust, make-up air
 7. Kitchen hood installation (often requires structural support)
-8. Framing and drywall — FOH partitions, back-of-house walls
+8. Framing and drywall: FOH partitions, back-of-house walls
 9. Ceiling and tile
 10. Equipment installation and connection
-11. Millwork — bar, host station, booth backs
+11. Millwork: bar, host station, booth backs
 12. Health and fire inspections
 13. Punch list and handover
 

@@ -157,6 +157,15 @@ if (progressBar) {
   }, { passive: true });
 })();
 
+// ---- Spotlight glow: track mouse position on .cx-spotlight sections ----
+document.querySelectorAll('.cx-spotlight').forEach(sec => {
+  sec.addEventListener('mousemove', e => {
+    const rect = sec.getBoundingClientRect();
+    sec.style.setProperty('--mx', (e.clientX - rect.left) + 'px');
+    sec.style.setProperty('--my', (e.clientY - rect.top) + 'px');
+  }, { passive: true });
+});
+
 // ---- Subtle section background parallax on cx-sections ----
 (function() {
   const sections = document.querySelectorAll('.cx-problem,.cx-compare,.cx-industries');

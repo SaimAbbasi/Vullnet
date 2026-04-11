@@ -644,6 +644,28 @@ body.cx-clicking .cx-cursor-ring{width:18px;height:18px;opacity:.7;border-color:
 @keyframes floatVDeep{0%,100%{transform:translateY(0) rotate(0deg) scale(1)}33%{transform:translateY(-14px) rotate(1.5deg) scale(1.02)}66%{transform:translateY(-6px) rotate(-1deg) scale(.98)}}
 .floating-v{animation:floatVDeep 8s ease-in-out infinite}
 
+/* ---- SPOTLIGHT MOUSE GLOW ---- */
+.cx-spotlight{isolation:isolate}
+.cx-spotlight::before{content:'';position:absolute;inset:0;background:radial-gradient(700px circle at var(--mx,50%) var(--my,-20%),rgba(216,48,48,.07),transparent 65%);pointer-events:none;z-index:0;opacity:0;transition:opacity .5s}
+.cx-spotlight:hover::before{opacity:1}
+.cx-spotlight>.cx-container{position:relative;z-index:1}
+
+/* ---- HERO EYEBROW DOT PULSE ---- */
+@keyframes dotPulse{0%,100%{box-shadow:0 0 0 0 rgba(216,48,48,.5)}60%{box-shadow:0 0 0 7px rgba(216,48,48,0)}}
+.hero .dot{animation:dotPulse 2.2s ease-in-out infinite}
+
+/* ---- HERO STAT ENTRANCE ---- */
+.hero-right{animation:fadeUp .6s .7s both}
+
+/* ---- SECTION HEADER UNDERLINE FAST ---- */
+.cx-h2{position:relative}
+
+/* ---- CARD HOVER GLOW ---- */
+.cx-problem-card,.cx-ind-item,.cx-scenario-card,.cx-not-item{transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s,border-color .35s}
+.cx-problem-card:hover,.cx-ind-item:hover{border-color:rgba(216,48,48,.35);box-shadow:0 8px 40px rgba(216,48,48,.08),0 2px 12px rgba(0,0,0,.4)}
+
+/* ---- MARQUEE PAUSE ON HOVER (already .paused) ---- */
+
 /* ---- REDUCE MOTION RESPECT ---- */
 @media(prefers-reduced-motion:reduce){
   .r,.r-left,.r-right,.r-scale{transition:none;opacity:1;transform:none}
@@ -653,4 +675,7 @@ body.cx-clicking .cx-cursor-ring{width:18px;height:18px;opacity:.7;border-color:
   .cta::after{animation:none}
   .values-section .big-num{animation:none}
   .nav-links li{animation:none;opacity:1;transform:none}
+  .cx-spotlight::before{display:none}
+  .hero .dot{animation:none}
+  .hero-right{animation:none}
 }

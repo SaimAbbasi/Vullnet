@@ -1,7 +1,7 @@
 ---
 layout: blog-post.njk
 title: "How to Choose a Commercial Renovation Contractor in Toronto"
-description: "The 7 questions every project manager should ask before signing a contract — and the red flags that tell you to walk away."
+description: "The 7 questions every project manager should ask before signing a contract, and the red flags that tell you to walk away."
 date: 2026-03-10
 tags: [blog]
 readTime: 6
@@ -17,14 +17,14 @@ Choosing the wrong commercial renovation contractor in Toronto doesn't just cost
 
 ## Why This Decision Matters More Than Price
 
-Most project managers lead with budget. That's understandable — you have approvals to hit. But the cheapest quote almost never reflects the real cost of a project. The real cost includes delay penalties, re-work, cost overruns from vague scopes, and the hours you personally spend chasing a contractor for updates.
+Most project managers lead with budget. That's understandable, as you have approvals to hit. But the cheapest quote almost never reflects the real cost of a project. The real cost includes delay penalties, re-work, cost overruns from vague scopes, and the hours you personally spend chasing a contractor for updates.
 
 The right question isn't "who's cheapest?" It's "who will cost me the least headache to deliver this project?"
 
 ## 7 Questions to Ask Before Signing
 
 **1. Have you done this exact type of project before?**
-Office tenant improvement, restaurant renovation, medical fit-out — these are meaningfully different scopes. Ask for examples within the last 24 months. Generic "commercial experience" isn't enough.
+Office tenant improvement, restaurant renovation, and medical fit-out are meaningfully different scopes. Ask for examples within the last 24 months. Generic "commercial experience" isn't enough.
 
 **2. What do you self-perform versus subcontract?**
 Contractors who subcontract everything have less schedule control and less accountability when subs don't show. Ask specifically which trades are in-house. Demolition, framing, and drywall performed in-house is a good sign.
@@ -54,4 +54,4 @@ You should never have to chase a contractor for a status update. Ask what they s
 
 ## The Bottom Line
 
-In the GTA commercial renovation market, competence is table stakes. What separates the contractors worth hiring is execution discipline — clear scopes, structured communication, and a bias toward solving problems rather than explaining them away.
+In the GTA commercial renovation market, competence is table stakes. What separates the contractors worth hiring is execution discipline: clear scopes, structured communication, and a bias toward solving problems rather than explaining them away.
