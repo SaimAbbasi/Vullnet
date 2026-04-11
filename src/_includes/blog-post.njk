@@ -1,0 +1,38 @@
+---
+layout: base.njk
+isBlogPost: true
+---
+<div class="bp-hero">
+  <div class="bp-container">
+    <nav class="bp-breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/blog">Blog</a> <span>/</span> <span>{{ title }}</span>
+    </nav>
+    <div class="bp-meta r-left">
+      <span>{{ date | readableDate }}</span>
+      <span class="bp-dot">·</span>
+      <span>{{ readTime }} min read</span>
+    </div>
+    <h1 class="r-left">{{ title }}</h1>
+    <p class="bp-desc r-left">{{ description }}</p>
+  </div>
+</div>
+
+<article class="bp-body">
+  <div class="bp-container">
+    <div class="bp-content">
+      {{ content | safe }}
+    </div>
+    <div class="bp-further r">
+      <div class="bp-further-label">Further Reading</div>
+      {% for link in furtherReading %}
+      <a href="{{ link.url }}" class="bp-further-link">{{ link.text }} <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      {% endfor %}
+    </div>
+    <div class="bp-cta r-scale">
+      <div class="cta-line"></div>
+      <h2>Ready to start your project?</h2>
+      <p>Tell us what you're building. We'll come back with a clear scope, honest timeline, and a number you can trust.</p>
+      <a href="/contact" class="btn btn-red">Get a Quote <svg class="arrow-icon" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+</article>

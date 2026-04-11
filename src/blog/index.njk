@@ -1,0 +1,45 @@
+---
+layout: base.njk
+title: "Commercial Renovation Insights | VNG Blog"
+description: "Practical guides for project managers and building owners navigating commercial renovations across Ontario."
+permalink: /blog/
+---
+
+<div class="bl-hero">
+  <div class="container">
+    <div style="font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:16px" class="r-left">From the Field</div>
+    <h1 class="r-left">Commercial Renovation<br><span style="color:var(--red)">Insights.</span></h1>
+    <p class="r-left">Practical knowledge for project managers, building owners, and anyone navigating a commercial renovation in Ontario.</p>
+  </div>
+</div>
+
+<section class="bl-listing">
+  <div class="container">
+    <div class="bl-grid stagger">
+      {% for post in collections.blog %}
+      <article class="bl-card r">
+        <div class="bl-meta">
+          <span>{{ post.date | readableDate }}</span>
+          <span class="bl-dot">·</span>
+          <span>{{ post.data.readTime }} min read</span>
+        </div>
+        <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+        <p>{{ post.data.description }}</p>
+        <a href="{{ post.url }}" class="bl-read-more">Read Article <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="cta-bg"><span>VNG</span></div>
+  <div class="container">
+    <div class="r-scale">
+      <div class="cta-line"></div>
+      <h2>Have a project in mind?<br>Let's <span class="accent">talk.</span></h2>
+      <p>Every article here reflects something we've dealt with on site. Bring us your project and we'll tell you exactly how we'd handle it.</p>
+      <a href="/contact" class="btn btn-red">Start a Conversation <svg class="arrow-icon" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+</section>
