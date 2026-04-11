@@ -560,3 +560,97 @@ h1,h2,h3,.logo-text,.stat-num,.big-num{font-family:'Oswald',sans-serif;text-tran
 .cx-conversion .btn{background:var(--pure);color:var(--dark)!important;font-family:'Oswald',sans-serif;white-space:nowrap;border:none}
 .cx-conversion .btn:hover{background:var(--gray3)}
 @media(max-width:700px){.cx-conversion-inner{grid-template-columns:1fr}}
+
+/* ======================================================
+   ELEVATED ANIMATIONS
+   ====================================================== */
+
+/* ---- SCROLL PROGRESS BAR ---- */
+#cx-progress{position:fixed;top:0;left:0;height:2px;background:var(--red);z-index:1000;width:0%;pointer-events:none;will-change:width}
+
+/* ---- CUSTOM CURSOR (desktop only) ---- */
+.cx-cursor{position:fixed;top:0;left:0;pointer-events:none;z-index:9999;display:none}
+@media(pointer:fine){.cx-cursor{display:block}}
+.cx-cursor-ring{width:36px;height:36px;border:1.5px solid rgba(216,48,48,.5);border-radius:50%;position:absolute;transform:translate(-50%,-50%);transition:width .45s cubic-bezier(.16,1,.3,1),height .45s cubic-bezier(.16,1,.3,1),border-color .35s,opacity .3s}
+body.cx-hovering .cx-cursor-ring{width:64px;height:64px;border-color:rgba(216,48,48,.8)}
+body.cx-clicking .cx-cursor-ring{width:18px;height:18px;opacity:.7;border-color:var(--red)}
+@media(pointer:fine){body{cursor:none}body a,body button{cursor:none}}
+
+/* ---- MARQUEE PAUSE ON HOVER ---- */
+.marquee:hover .marquee-track{animation-play-state:paused}
+
+/* ---- UPGRADED REVEAL TRANSITIONS (override earlier .4s with cinematic .9s) ---- */
+.r{transform:translateY(44px);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1.1s cubic-bezier(.16,1,.3,1)}
+.r-left{transform:translateX(-44px);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1.1s cubic-bezier(.16,1,.3,1)}
+.r-right{transform:translateX(44px);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1.1s cubic-bezier(.16,1,.3,1)}
+.r-scale{transform:scale(.9);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1.2s cubic-bezier(.16,1,.3,1)}
+
+/* ---- EXTENDED STAGGER — up to 12 children ---- */
+.stagger .r:nth-child(7){transition-delay:.33s}
+.stagger .r:nth-child(8){transition-delay:.39s}
+.stagger .r:nth-child(9){transition-delay:.45s}
+.stagger .r:nth-child(10){transition-delay:.51s}
+.stagger .r:nth-child(11){transition-delay:.57s}
+.stagger .r:nth-child(12){transition-delay:.63s}
+
+/* ---- BLUR-IN VARIANT ---- */
+.cx-blur{opacity:0;filter:blur(8px);transform:translateY(14px);transition:opacity 1.1s cubic-bezier(.16,1,.3,1),filter 1.1s cubic-bezier(.16,1,.3,1),transform 1.1s cubic-bezier(.16,1,.3,1)}
+.cx-blur.v{opacity:1;filter:blur(0);transform:translateY(0)}
+
+/* ---- EYEBROW UNDERLINE DRAW ---- */
+.cx-eyebrow{position:relative;display:inline-block}
+.cx-eyebrow::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1.5px;background:var(--red);transition:width .9s .25s cubic-bezier(.16,1,.3,1)}
+.r.v .cx-eyebrow::after,.r-left.v .cx-eyebrow::after,.r-right.v .cx-eyebrow::after,.r-scale.v .cx-eyebrow::after{width:100%}
+
+/* ---- CARD HOVER LIFT ---- */
+.cx-problem-card:hover,.cx-scenario-card:hover,.cx-not-item:hover,.cx-why-item:hover,.cx-proof-card:hover,.cx-ind-item:hover{transform:translateY(-6px);box-shadow:0 16px 48px rgba(0,0,0,.4)}
+.cx-problem-card,.cx-scenario-card,.cx-not-item,.cx-why-item,.cx-proof-card{transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s,border-color .3s,background .25s}
+
+/* ---- CTA AMBIENT GLOW ---- */
+.cta{overflow:hidden}
+.cta::after{content:'';position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(216,48,48,.08) 0%,transparent 65%);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;animation:ctaGlow 5s ease-in-out infinite alternate}
+@keyframes ctaGlow{0%{opacity:.6;transform:translate(-50%,-50%) scale(1)}100%{opacity:1;transform:translate(-50%,-50%) scale(1.5)}}
+
+/* ---- SVC CARD LIFT ---- */
+.svc-card{transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s,border-color .3s,background .3s}
+.svc-card:hover{transform:translateY(-5px);box-shadow:0 12px 40px rgba(0,0,0,.35)}
+
+/* ---- VAL ITEM LIFT ---- */
+.val-item{transition:transform .35s cubic-bezier(.16,1,.3,1),box-shadow .35s}
+.val-item:hover{transform:translateY(-5px);box-shadow:0 12px 40px rgba(0,0,0,.25)}
+
+/* ---- CTA LINE DRAW (pulsing replaced by a one-time draw on entering viewport) ---- */
+.cta-line{width:0;animation:none;transition:width 1.2s .2s cubic-bezier(.16,1,.3,1)}
+.r-scale.v .cta-line,.r.v .cta-line{width:48px}
+
+/* ---- NAV LINK ENTRANCE ON LOAD ---- */
+.nav-links li{opacity:0;transform:translateY(-8px);animation:navIn .4s forwards}
+.nav-links li:nth-child(1){animation-delay:.1s}
+.nav-links li:nth-child(2){animation-delay:.15s}
+.nav-links li:nth-child(3){animation-delay:.2s}
+.nav-links li:nth-child(4){animation-delay:.25s}
+.nav-links li:nth-child(5){animation-delay:.3s}
+.nav-links li:nth-child(6){animation-delay:.35s}
+@keyframes navIn{to{opacity:1;transform:translateY(0)}}
+
+/* ---- VALUE SECTION NUMBERS SUBTLE PULSE ---- */
+@keyframes numPulse{0%,100%{opacity:.12}60%{opacity:.22}}
+.values-section .big-num{animation:numPulse 4s ease-in-out infinite}
+.values-section .val-item:nth-child(2) .big-num{animation-delay:.8s}
+.values-section .val-item:nth-child(3) .big-num{animation-delay:1.6s}
+.values-section .val-item:nth-child(4) .big-num{animation-delay:2.4s}
+
+/* ---- FLOATING V DEEPER PARALLAX ---- */
+@keyframes floatVDeep{0%,100%{transform:translateY(0) rotate(0deg) scale(1)}33%{transform:translateY(-14px) rotate(1.5deg) scale(1.02)}66%{transform:translateY(-6px) rotate(-1deg) scale(.98)}}
+.floating-v{animation:floatVDeep 8s ease-in-out infinite}
+
+/* ---- REDUCE MOTION RESPECT ---- */
+@media(prefers-reduced-motion:reduce){
+  .r,.r-left,.r-right,.r-scale{transition:none;opacity:1;transform:none}
+  .cx-cursor,.cx-cursor-ring{display:none!important}
+  #cx-progress{display:none}
+  .floating-v{animation:none}
+  .cta::after{animation:none}
+  .values-section .big-num{animation:none}
+  .nav-links li{animation:none;opacity:1;transform:none}
+}
