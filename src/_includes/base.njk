@@ -24,19 +24,58 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "{{ site.name }}",
-  "description": "{{ site.defaultDescription }}",
+  "@type": ["LocalBusiness", "GeneralContractor"],
+  "name": "Vullnet Nura Group",
+  "alternateName": "VNG",
+  "description": "Commercial interior renovation contractor serving the Greater Toronto Area. Specializing in office tenant improvements, medical office renovations, restaurant fit-outs, retail buildouts, and industrial renovations. 1000+ projects delivered on time across Ontario.",
   "url": "{{ site.baseUrl }}",
   "email": "{{ site.email }}",
   "address": {
     "@type": "PostalAddress",
+    "addressLocality": "Mississauga",
     "addressRegion": "ON",
     "addressCountry": "CA"
   },
-  "areaServed": "Greater Toronto Area"
+  "areaServed": [
+    {"@type": "City", "name": "Toronto"},
+    {"@type": "City", "name": "Mississauga"},
+    {"@type": "City", "name": "Brampton"},
+    {"@type": "City", "name": "Vaughan"},
+    {"@type": "City", "name": "Markham"},
+    {"@type": "City", "name": "Oakville"},
+    {"@type": "City", "name": "Burlington"},
+    {"@type": "City", "name": "Hamilton"},
+    {"@type": "City", "name": "Richmond Hill"},
+    {"@type": "City", "name": "Etobicoke"},
+    {"@type": "City", "name": "Scarborough"},
+    {"@type": "City", "name": "North York"}
+  ],
+  "serviceType": [
+    "Commercial Renovation",
+    "Office Tenant Improvement",
+    "Medical Office Renovation",
+    "Restaurant Renovation",
+    "Retail Fit-Out",
+    "Industrial Renovation",
+    "Demolition",
+    "Drywall and Framing",
+    "Commercial Millwork",
+    "Trade Coordination"
+  ],
+  "knowsAbout": [
+    "Commercial Interior Renovation",
+    "Tenant Improvement Construction",
+    "ICRA Infection Control",
+    "AODA Accessibility Compliance",
+    "Ontario Building Code",
+    "MEP Trade Coordination",
+    "Commercial Permit Management"
+  ],
+  "sameAs": [],
+  "priceRange": "$$"
 }
 </script>
+{{ jsonLd | safe if jsonLd }}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
