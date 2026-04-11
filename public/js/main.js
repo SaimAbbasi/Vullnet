@@ -61,3 +61,12 @@ document.querySelectorAll('.btn-red').forEach(btn => {
   });
   btn.addEventListener('mouseleave', () => { btn.style.transform = '' });
 });
+
+// FAQ accordion
+document.querySelectorAll('.cx-faq-item').forEach(item => {
+  item.querySelector('.cx-faq-q').addEventListener('click', () => {
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.cx-faq-item.open').forEach(o => o.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});

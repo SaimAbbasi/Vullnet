@@ -1,18 +1,129 @@
 ---
 layout: base.njk
-title: "Get a Quote | Vullnet Nura Group"
-description: "Ready to start your next commercial renovation? Contact Vullnet Nura Group for a fast, no-nonsense quote."
+title: "Get a Quote | Vullnet Nura Group — Commercial Renovation GTA"
+description: "Request a quote for your commercial renovation. VNG serves Toronto, Mississauga, Brampton, Vaughan and the GTA. Itemized quotes within 5 business days."
 permalink: /contact/
 ---
 
-<section class="cta" id="contact">
-  <div class="cta-bg"><span>VNG</span></div>
-  <div class="container">
-    <div class="r-scale">
-      <div class="cta-line"></div>
-      <h2>Your project deserves<br>a team that <span class="accent">shows up.</span></h2>
-      <p>Tell us what you are building. We will come back to you with a clear scope, an honest timeline, and a number you can trust.</p>
-      <a href="mailto:info@vullnetnuragroup.com" class="btn btn-red">Start a Conversation <svg class="arrow-icon" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+<section class="cx-contact-bg" id="contact">
+  <div class="cx-container">
+    <div class="cx-contact-layout">
+
+      <!-- INFO SIDE -->
+      <div class="cx-contact-info">
+        <div style="font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:20px">Get a Quote</div>
+        <h1>Tell us what<br>you are building.</h1>
+        <p>We will come back to you within two business days with questions, and a detailed quote within five business days of a site visit. No allowances, no vague ranges — a number you can put in front of your client.</p>
+
+        <div class="cx-contact-detail r-left">
+          <div class="cx-contact-detail-label">Email</div>
+          <div class="cx-contact-detail-val"><a href="mailto:info@vullnetnuragroup.com">info@vullnetnuragroup.com</a></div>
+        </div>
+        <div class="cx-contact-detail r-left">
+          <div class="cx-contact-detail-label">Service Area</div>
+          <div class="cx-contact-detail-val">Toronto · Mississauga · Brampton<br>Vaughan · Markham · Oakville · Hamilton</div>
+        </div>
+        <div class="cx-contact-detail r-left">
+          <div class="cx-contact-detail-label">Quote Turnaround</div>
+          <div class="cx-contact-detail-val">5 business days from site visit</div>
+        </div>
+
+        <div class="cx-trust-list r-left">
+          <div class="cx-trust-item">Itemized quotes — no buried allowances or vague line items</div>
+          <div class="cx-trust-item">WSIB and commercial general liability insurance included</div>
+          <div class="cx-trust-item">Full permit management from application to close</div>
+          <div class="cx-trust-item">In-house core trades — not unfamiliar subs on your job site</div>
+          <div class="cx-trust-item">1000+ projects delivered on time across Ontario</div>
+        </div>
+      </div>
+
+      <!-- FORM SIDE -->
+      <div class="cx-form r-right">
+        <form action="mailto:info@vullnetnuragroup.com" method="POST" enctype="text/plain">
+          <div class="cx-form-row">
+            <div class="cx-form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="first_name" placeholder="Jane" required>
+            </div>
+            <div class="cx-form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="last_name" placeholder="Smith" required>
+            </div>
+          </div>
+          <div class="cx-form-row">
+            <div class="cx-form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+            </div>
+            <div class="cx-form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="416-555-0100">
+            </div>
+          </div>
+          <div class="cx-form-group">
+            <label for="company">Company / Organization</label>
+            <input type="text" id="company" name="company" placeholder="Property Management Co.">
+          </div>
+          <div class="cx-form-group">
+            <label for="project_type">Project Type</label>
+            <select id="project_type" name="project_type">
+              <option value="" disabled selected>Select project type</option>
+              <option>Office / Tenant Improvement</option>
+              <option>Medical / Clinical</option>
+              <option>Restaurant / Hospitality</option>
+              <option>Retail Fit-Out</option>
+              <option>Industrial / Warehouse</option>
+              <option>Multi-Residential Common Area</option>
+              <option>Educational / Institutional</option>
+              <option>Other Commercial</option>
+            </select>
+          </div>
+          <div class="cx-form-row">
+            <div class="cx-form-group">
+              <label for="location">Project Location</label>
+              <input type="text" id="location" name="location" placeholder="Mississauga, ON">
+            </div>
+            <div class="cx-form-group">
+              <label for="sqft">Approximate Square Footage</label>
+              <input type="text" id="sqft" name="sqft" placeholder="3,500 sq ft">
+            </div>
+          </div>
+          <div class="cx-form-group">
+            <label for="timeline">Target Start Date / Timeline</label>
+            <input type="text" id="timeline" name="timeline" placeholder="Start: June 2026, 8-week build">
+          </div>
+          <div class="cx-form-group">
+            <label for="message">Project Description</label>
+            <textarea id="message" name="message" placeholder="Tell us what you are building, any drawings or permits you have, and any constraints we should know about upfront."></textarea>
+          </div>
+          <button type="submit" class="cx-form-submit">Send Request</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="cx-problem cx-section" id="why-contact">
+  <div class="cx-container">
+    <div class="r">
+      <div class="cx-eyebrow">What Happens Next</div>
+      <h2 class="cx-h2">No pitch. No pressure.<br>Just a real conversation.</h2>
+    </div>
+    <div class="cx-problem-grid stagger">
+      <div class="cx-problem-card r">
+        <h3>Step 1 — We Review Your Request</h3>
+        <p>Within two business days, you will hear from us directly. We will confirm we received your information, ask any clarifying questions, and schedule a site visit at a time that works for you.</p>
+      </div>
+      <div class="cx-problem-card r">
+        <h3>Step 2 — Site Visit</h3>
+        <p>We walk the space with you. We look at base building conditions, assess the scope, identify anything the drawings may have missed, and ask the questions that will prevent surprises later. No charge for the visit.</p>
+      </div>
+      <div class="cx-problem-card r">
+        <h3>Step 3 — Itemized Quote</h3>
+        <p>Within five business days of the site visit, you receive a detailed, trade-by-trade quote with scope defined, exclusions listed, and a proposed start-to-finish timeline. No allowances. No buried costs. A number you can work with.</p>
+      </div>
     </div>
   </div>
 </section>
