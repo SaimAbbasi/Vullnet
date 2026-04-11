@@ -1,18 +1,88 @@
 ---
 layout: base.njk
 title: "Get a Quote | Vullnet Nura Group"
-description: "Ready to start your next commercial renovation? Contact Vullnet Nura Group for a fast, no-nonsense quote."
+description: "Tell us about your commercial renovation project. We respond within one business day with a clear scope and honest timeline."
 permalink: /contact/
 ---
 
-<section class="cta" id="contact">
-  <div class="cta-bg"><span>VNG</span></div>
+<section class="contact-section" id="contact">
   <div class="container">
-    <div class="r-scale">
-      <div class="cta-line"></div>
-      <h2>Your project deserves<br>a team that <span class="accent">shows up.</span></h2>
-      <p>Tell us what you are building. We will come back to you with a clear scope, an honest timeline, and a number you can trust.</p>
-      <a href="mailto:info@vullnetnuragroup.com" class="btn btn-red">Start a Conversation <svg class="arrow-icon" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <div style="margin-bottom:48px">
+      <div class="tag r-left" style="color:var(--red);font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:16px">Get in Touch</div>
+      <h1 class="r-left" style="font-size:clamp(2.6rem,6vw,5rem);line-height:.95;color:var(--pure)">Tell us what<br>you're building.</h1>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <form class="contact-form r" action="https://formspree.io/f/placeholder" method="POST">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" placeholder="Acme Properties">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="416-555-0100">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="project-type">Project Type</label>
+              <select id="project-type" name="project_type">
+                <option value="">Select a type</option>
+                <option value="office">Office Renovation</option>
+                <option value="retail">Retail Buildout</option>
+                <option value="restaurant">Restaurant Renovation</option>
+                <option value="medical">Medical Office</option>
+                <option value="industrial">Industrial</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="budget">Estimated Budget</label>
+              <select id="budget" name="budget">
+                <option value="">Select a range</option>
+                <option value="under-50k">Under $50K</option>
+                <option value="50-150k">$50K – $150K</option>
+                <option value="150-500k">$150K – $500K</option>
+                <option value="500k-plus">$500K+</option>
+                <option value="not-sure">Not Sure Yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="message">Tell us about the project</label>
+            <textarea id="message" name="message" placeholder="Space size, location, timeline, key requirements..." rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-red" style="width:100%;justify-content:center">Send Message <svg class="arrow-icon" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </form>
+      </div>
+      <div class="contact-info r-right">
+        <div class="info-item">
+          <div class="info-label">Email</div>
+          <div class="info-value"><a href="mailto:info@vullnetnuragroup.com">info@vullnetnuragroup.com</a></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Service Area</div>
+          <div class="info-value">Greater Toronto Area including Toronto, Mississauga, Brampton, Vaughan, Markham, Richmond Hill, Oakville, Burlington, Hamilton, and surrounding Ontario markets.</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Project Types</div>
+          <div class="info-value">Office, Retail, Restaurant, Medical, Industrial, Institutional. Commercial interiors only — no residential.</div>
+        </div>
+        <div class="response-promise">
+          <p><strong>We respond to every inquiry within one business day.</strong> If your project is urgent, say so in your message — we will get back to you the same day.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
