@@ -7,8 +7,10 @@ tags: [blog]
 readTime: 5
 permalink: /blog/medical-office-renovation/
 furtherReading:
-  - text: "Our Services"
-    url: /services
+  - text: "How to Choose a Commercial Renovation Contractor"
+    url: /blog/how-to-choose-commercial-renovation-contractor-toronto/
+  - text: "View Our Projects"
+    url: /projects
   - text: "Get a Quote"
     url: /contact
 ---

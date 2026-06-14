@@ -7,10 +7,12 @@ tags: [blog]
 readTime: 5
 permalink: /blog/real-cost-missed-deadline-commercial-construction/
 furtherReading:
-  - text: "How We Protect Your Deadline"
+  - text: "How Trade Coordination Actually Works"
+    url: /blog/how-trade-coordination-works/
+  - text: "How to Choose a Commercial Renovation Contractor"
+    url: /blog/how-to-choose-commercial-renovation-contractor-toronto/
+  - text: "Our Process"
     url: /process
-  - text: "Trade Coordination & Scaling"
-    url: /services
 ---
 
 When a commercial renovation misses its handover date, the conversation usually focuses on the contractor. But the cost of a missed deadline spreads well beyond who's holding the hammer.

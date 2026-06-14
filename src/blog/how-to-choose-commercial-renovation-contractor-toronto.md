@@ -7,9 +7,11 @@ tags: [blog]
 readTime: 6
 permalink: /blog/how-to-choose-commercial-renovation-contractor-toronto/
 furtherReading:
-  - text: "Our Full Service Offering"
-    url: /services
-  - text: "How We Work"
+  - text: "How Trade Coordination Actually Works"
+    url: /blog/how-trade-coordination-works/
+  - text: "From Demo to Handoff: Inside a Commercial Reno"
+    url: /blog/from-demo-to-handoff-inside-a-commercial-reno/
+  - text: "Our Process"
     url: /process
 ---
 

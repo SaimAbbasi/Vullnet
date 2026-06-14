@@ -21,6 +21,9 @@ h1,h2,h3,.logo-text,.stat-num,.big-num{font-family:'Oswald',sans-serif;text-tran
 .nav-cta-btn{padding:10px 28px;background:var(--red);color:var(--pure)!important;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;transition:background .2s,transform .2s}
 .nav-cta-btn:hover{background:#c22828;transform:translateY(-1px)}
 .nav-cta-btn::after{display:none!important}
+.nav-phone{color:var(--red)!important;font-size:.75rem;font-weight:700;letter-spacing:.08em}
+.nav-phone::after{display:none!important}
+.footer-phone{color:var(--pure)!important;font-size:1rem;font-weight:600}
 .burger{display:none;background:none;border:none;cursor:pointer;padding:4px}
 .burger i{display:block;width:22px;height:2px;background:var(--pure);margin:5px 0;transition:.3s}
 

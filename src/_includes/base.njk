@@ -8,15 +8,24 @@
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ site.baseUrl }}{{ permalink or page.url }}">
 
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/public/favicon.svg">
+<link rel="shortcut icon" href="/public/favicon.svg">
+
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:title" content="{{ title or site.name }}">
 <meta property="og:description" content="{{ description or site.defaultDescription }}">
 <meta property="og:url" content="{{ site.baseUrl }}{{ permalink or page.url }}">
+<meta property="og:image" content="{{ site.baseUrl }}/public/og-image.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.baseUrl }}/public/og-image.svg">
+
 <meta name="twitter:title" content="{{ title or site.name }}">
 <meta name="twitter:description" content="{{ description or site.defaultDescription }}">
 
@@ -71,7 +80,11 @@
     "MEP Trade Coordination",
     "Commercial Permit Management"
   ],
-  "sameAs": [],
+  "sameAs": [
+    "https://www.linkedin.com/company/vullnet-nura-group",
+    "https://www.instagram.com/vullnetnuragroup"
+  ],
+  "telephone": "<!-- PHONE: add actual VNG phone number here e.g. +14161234567 -->",
   "priceRange": "$$"
 }
 </script>
