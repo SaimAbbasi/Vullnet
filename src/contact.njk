@@ -101,9 +101,23 @@ permalink: /contact/
               <input type="text" id="sqft" name="sqft" placeholder="3,500 sq ft">
             </div>
           </div>
-          <div class="cx-form-group">
-            <label for="timeline">Target Start Date / Timeline</label>
-            <input type="text" id="timeline" name="timeline" placeholder="Start: June 2026, 8-week build">
+          <div class="cx-form-row">
+            <div class="cx-form-group">
+              <label for="budget">Approximate Budget</label>
+              <select id="budget" name="budget">
+                <option value="" disabled selected>Select budget range</option>
+                <option>Under $50,000</option>
+                <option>$50,000 – $150,000</option>
+                <option>$150,000 – $500,000</option>
+                <option>$500,000 – $1,000,000</option>
+                <option>Over $1,000,000</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div class="cx-form-group">
+              <label for="timeline">Target Start Date / Timeline</label>
+              <input type="text" id="timeline" name="timeline" placeholder="Start: June 2026, 8-week build">
+            </div>
           </div>
           <div class="cx-form-group">
             <label for="message">Project Description</label>

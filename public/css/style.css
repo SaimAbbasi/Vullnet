@@ -11,7 +11,7 @@ h1,h2,h3,.logo-text,.stat-num,.big-num{font-family:'Oswald',sans-serif;text-tran
 .logo-mark{width:36px;height:36px;position:relative}
 .logo-mark span{position:absolute;left:50%;height:2px;background:var(--red);transform-origin:left center;border-radius:1px}
 .logo-text{font-size:0.95rem;font-weight:700;letter-spacing:.1em;line-height:1.1}
-.nav-links{display:flex;align-items:center;gap:32px;list-style:none}
+.nav-links{display:flex;align-items:center;gap:clamp(16px,2vw,32px);list-style:none}
 .nav-links a{font-size:.75rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gray2);text-decoration:none;transition:color .25s;position:relative}
 .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--red);transition:width .3s}
 .nav-links a:hover{color:var(--pure)}
@@ -295,6 +295,10 @@ h1,h2,h3,.logo-text,.stat-num,.big-num{font-family:'Oswald',sans-serif;text-tran
   .footer-bottom{flex-direction:column;gap:8px;text-align:center}
   .hero-btns{flex-direction:column}
   .btn{justify-content:center}
+  /* founder bio responsive */
+  #founder [style*="grid-template-columns:1fr 2fr"]{grid-template-columns:1fr!important;gap:32px!important}
+  /* mobile CTA body padding */
+  body{padding-bottom:60px}
 }
 
 /* ---- BLOG LISTING ---- */
@@ -649,6 +653,9 @@ body.cx-clicking .cx-cursor-ring{width:18px;height:18px;opacity:.7;border-color:
 .nav-links li:nth-child(4){animation-delay:.25s}
 .nav-links li:nth-child(5){animation-delay:.3s}
 .nav-links li:nth-child(6){animation-delay:.35s}
+.nav-links li:nth-child(7){animation-delay:.4s}
+.nav-links li:nth-child(8){animation-delay:.45s}
+.nav-links li:nth-child(9){animation-delay:.5s}
 @keyframes navIn{to{opacity:1;transform:translateY(0)}}
 
 /* ---- VALUE SECTION NUMBERS SUBTLE PULSE ---- */
@@ -683,6 +690,26 @@ body.cx-clicking .cx-cursor-ring{width:18px;height:18px;opacity:.7;border-color:
 .cx-problem-card:hover,.cx-ind-item:hover{border-color:rgba(216,48,48,.35);box-shadow:0 8px 40px rgba(216,48,48,.08),0 2px 12px rgba(0,0,0,.4)}
 
 /* ---- MARQUEE PAUSE ON HOVER (already .paused) ---- */
+
+/* ---- PRIVACY / LEGAL PROSE ---- */
+.cx-prose h2{font-size:1.1rem;color:var(--pure);margin:40px 0 12px;letter-spacing:.04em}
+.cx-prose p{font-size:.92rem;line-height:1.78;color:var(--gray2);margin-bottom:16px}
+.cx-prose ul{padding-left:20px;margin-bottom:16px}
+.cx-prose li{font-size:.92rem;line-height:1.75;color:var(--gray2);margin-bottom:6px}
+.cx-prose a{color:var(--red);text-decoration:none}
+.cx-prose a:hover{text-decoration:underline}
+.cx-prose strong{color:var(--pure)}
+
+/* ---- WHATSAPP FLOATING BUTTON ---- */
+.cx-whatsapp{position:fixed;bottom:88px;right:24px;z-index:90;width:52px;height:52px;background:#25d366;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.35);transition:transform .2s,box-shadow .2s}
+.cx-whatsapp:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.45)}
+@media(min-width:769px){.cx-whatsapp{bottom:32px}}
+
+/* ---- STICKY MOBILE CTA BAR ---- */
+.cx-mobile-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:95;height:60px;background:var(--dark2);border-top:1px solid rgba(255,255,255,.08);flex-direction:row}
+.cx-mobile-cta-call{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;color:var(--pure);font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-right:1px solid rgba(255,255,255,.08)}
+.cx-mobile-cta-quote{flex:2;display:flex;align-items:center;justify-content:center;background:var(--red);color:var(--pure);font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none}
+@media(max-width:768px){.cx-mobile-cta{display:flex}}
 
 /* ---- REDUCE MOTION RESPECT ---- */
 @media(prefers-reduced-motion:reduce){

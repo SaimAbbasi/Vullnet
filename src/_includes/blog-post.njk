@@ -2,6 +2,26 @@
 layout: base.njk
 isBlogPost: true
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ title | replace('"', '&quot;') }}",
+  "description": "{{ description | replace('"', '&quot;') }}",
+  "datePublished": "{{ date | isoDate }}",
+  "dateModified": "{{ date | isoDate }}",
+  "url": "https://www.vullnetnuragroup.com{{ page.url }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Vullnet Nura Group"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vullnet Nura Group",
+    "url": "https://www.vullnetnuragroup.com"
+  }
+}
+</script>
 <div class="bp-hero">
   <div class="bp-container">
     <nav class="bp-breadcrumb">
