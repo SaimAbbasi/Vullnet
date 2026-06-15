@@ -722,6 +722,38 @@ body.cx-clicking .cx-cursor-ring{width:18px;height:18px;opacity:.7;border-color:
 .cx-quote-tab:hover{right:0}
 @media(max-width:768px){.cx-quote-tab{display:none}}
 
+/* ---- SKIP TO CONTENT ---- */
+.cx-skip-link{position:absolute;top:-100px;left:16px;z-index:9999;background:var(--red);color:var(--pure);padding:10px 20px;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;transition:top .2s}
+.cx-skip-link:focus{top:16px}
+
+/* ---- BACK TO TOP BUTTON ---- */
+.cx-back-top{position:fixed;bottom:32px;left:24px;z-index:89;width:44px;height:44px;background:var(--dark2);border:1px solid rgba(255,255,255,.12);color:var(--gray2);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transform:translateY(12px);transition:opacity .3s,transform .3s,background .2s,color .2s;pointer-events:none}
+.cx-back-top.visible{opacity:1;transform:translateY(0);pointer-events:auto}
+.cx-back-top:hover{background:var(--red);color:var(--pure);border-color:var(--red)}
+@media(max-width:768px){.cx-back-top{bottom:72px;left:16px}}
+
+/* ---- BLOG AUTHOR BYLINE ---- */
+.bp-author{display:inline-flex;align-items:center;gap:8px;color:var(--pure);font-weight:600}
+.bp-author-avatar{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;background:var(--red);color:var(--pure);font-size:.65rem;font-weight:700;letter-spacing:.04em;border-radius:50%;flex-shrink:0}
+
+/* ---- BLOG TABLE OF CONTENTS ---- */
+.bp-toc{background:rgba(255,255,255,.04);border-left:2px solid var(--red);padding:20px 24px;margin-bottom:40px;display:none}
+.bp-toc.has-items{display:block}
+.bp-toc-label{font-size:.65rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--red);margin-bottom:12px}
+.bp-toc ol{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px}
+.bp-toc ol li a{font-size:.82rem;color:var(--gray2);text-decoration:none;transition:color .2s;line-height:1.4}
+.bp-toc ol li a:hover{color:var(--pure)}
+
+/* ---- BLOG SOCIAL SHARE ---- */
+.bp-share{display:flex;align-items:center;gap:10px;padding:28px 0;border-top:1px solid rgba(255,255,255,.07);margin-top:48px;flex-wrap:wrap}
+.bp-share-label{font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gray2);margin-right:4px}
+.bp-share-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;font-size:.73rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(255,255,255,.12);color:var(--gray2);background:transparent;cursor:pointer;font-family:inherit;transition:background .2s,color .2s,border-color .2s}
+.bp-share-btn:hover{color:var(--pure);border-color:rgba(255,255,255,.3)}
+.bp-share-li:hover{background:#0077b5;border-color:#0077b5;color:#fff}
+.bp-share-tw:hover{background:#000;border-color:#000;color:#fff}
+.bp-share-copy:hover{background:var(--red);border-color:var(--red);color:#fff}
+.bp-share-copy.copied{background:var(--red);border-color:var(--red);color:#fff}
+
 /* ---- REDUCE MOTION RESPECT ---- */
 @media(prefers-reduced-motion:reduce){
   .r,.r-left,.r-right,.r-scale{transition:none;opacity:1;transform:none}

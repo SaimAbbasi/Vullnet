@@ -210,6 +210,55 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
   }, { passive: true });
 })();
 
+// ---- Back to top button ----
+(function() {
+  const btn = document.getElementById('cx-back-top');
+  if (!btn) return;
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+})();
+
+// ---- Blog: auto-generate table of contents from h2 headings ----
+(function() {
+  const toc = document.getElementById('bp-toc');
+  const content = document.getElementById('bp-content');
+  if (!toc || !content) return;
+  const headings = content.querySelectorAll('h2');
+  if (headings.length < 3) return; // only show TOC for articles with 3+ sections
+  const label = document.createElement('div');
+  label.className = 'bp-toc-label';
+  label.textContent = 'In this article';
+  const ol = document.createElement('ol');
+  headings.forEach((h, i) => {
+    if (!h.id) h.id = 'section-' + i;
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+    ol.appendChild(li);
+  });
+  toc.appendChild(label);
+  toc.appendChild(ol);
+  toc.classList.add('has-items');
+})();
+
+// ---- Blog: copy link button ----
+(function() {
+  const btn = document.getElementById('bp-copy-link');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      btn.classList.add('copied');
+      const orig = btn.innerHTML;
+      btn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Copied!';
+      setTimeout(() => { btn.innerHTML = orig; btn.classList.remove('copied'); }, 2000);
+    });
+  });
+})();
+
 // ---- Subtle section background parallax on cx-sections ----
 (function() {
   const sections = document.querySelectorAll('.cx-problem,.cx-compare,.cx-industries');

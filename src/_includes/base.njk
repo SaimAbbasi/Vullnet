@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ title or site.name }}</title>
 <meta name="description" content="{{ description or site.defaultDescription }}">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="{{ robots or 'index, follow' }}">
 <meta name="theme-color" content="#1a1a1a">
 <link rel="canonical" href="{{ site.baseUrl }}{{ permalink or page.url }}">
 
@@ -125,12 +125,15 @@
 </head>
 <body>
 
+<a href="#main-content" class="cx-skip-link">Skip to content</a>
 <div id="cx-progress" aria-hidden="true"></div>
 <div class="cx-cursor" aria-hidden="true"><div class="cx-cursor-ring"></div></div>
 
 {% include "nav.njk" %}
 
+<main id="main-content">
 {{ content | safe }}
+</main>
 
 {% include "footer.njk" %}
 
@@ -147,6 +150,11 @@
   </a>
   <a href="/contact" class="cx-mobile-cta-quote">Get a Quote</a>
 </div>
+
+<!-- Back to top button -->
+<button class="cx-back-top" id="cx-back-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
 
 <script src="/public/js/main.js"></script>
 </body>
