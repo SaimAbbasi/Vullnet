@@ -711,6 +711,17 @@ body.cx-clicking .cx-cursor-ring{width:18px;height:18px;opacity:.7;border-color:
 .cx-mobile-cta-quote{flex:2;display:flex;align-items:center;justify-content:center;background:var(--red);color:var(--pure);font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none}
 @media(max-width:768px){.cx-mobile-cta{display:flex}}
 
+/* ---- BEFORE / AFTER SLIDER ---- */
+.cx-ba-before{transition:width .05s linear}
+.cx-ba-handle{transition:left .05s linear}
+@media(max-width:600px){.cx-ba-wrap{max-width:100%!important}}
+
+/* ---- SCROLL-TRIGGERED QUOTE TAB ---- */
+.cx-quote-tab{position:fixed;right:-120px;top:50%;transform:translateY(-50%) rotate(90deg);transform-origin:right center;z-index:88;background:var(--red);color:var(--pure);text-decoration:none;padding:10px 20px;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;transition:right .4s cubic-bezier(.16,1,.3,1);display:flex;align-items:center;box-shadow:-4px 0 16px rgba(0,0,0,.4)}
+.cx-quote-tab.visible{right:-8px}
+.cx-quote-tab:hover{right:0}
+@media(max-width:768px){.cx-quote-tab{display:none}}
+
 /* ---- REDUCE MOTION RESPECT ---- */
 @media(prefers-reduced-motion:reduce){
   .r,.r-left,.r-right,.r-scale{transition:none;opacity:1;transform:none}

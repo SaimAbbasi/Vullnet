@@ -166,6 +166,50 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
   }, { passive: true });
 });
 
+// ---- Before / After image slider ----
+(function() {
+  const wrap = document.querySelector('.cx-ba-wrap');
+  if (!wrap) return;
+  const before = wrap.querySelector('.cx-ba-before');
+  const handle = wrap.querySelector('.cx-ba-handle');
+  const range = wrap.querySelector('.cx-ba-range');
+  function setPos(pct) {
+    pct = Math.max(0, Math.min(100, pct));
+    before.style.width = pct + '%';
+    handle.style.left = pct + '%';
+    range.value = pct;
+  }
+  range.addEventListener('input', () => setPos(+range.value));
+  // Touch / mouse drag on the visual
+  let dragging = false;
+  wrap.addEventListener('mousedown', e => { if (e.target !== range) { dragging = true; } });
+  window.addEventListener('mouseup', () => { dragging = false; });
+  window.addEventListener('mousemove', e => {
+    if (!dragging) return;
+    const rect = wrap.getBoundingClientRect();
+    setPos(((e.clientX - rect.left) / rect.width) * 100);
+  });
+  wrap.addEventListener('touchmove', e => {
+    const rect = wrap.getBoundingClientRect();
+    setPos(((e.touches[0].clientX - rect.left) / rect.width) * 100);
+  }, { passive: true });
+})();
+
+// ---- Scroll-triggered "Get a Quote" side tab ----
+(function() {
+  const tab = document.createElement('a');
+  tab.href = '/contact';
+  tab.className = 'cx-quote-tab';
+  tab.setAttribute('aria-label', 'Get a Quote');
+  tab.innerHTML = '<span>Get a Quote</span>';
+  document.body.appendChild(tab);
+  let shown = false;
+  window.addEventListener('scroll', () => {
+    const halfway = document.documentElement.scrollHeight / 2;
+    if (!shown && window.scrollY > halfway) { tab.classList.add('visible'); shown = true; }
+  }, { passive: true });
+})();
+
 // ---- Subtle section background parallax on cx-sections ----
 (function() {
   const sections = document.querySelectorAll('.cx-problem,.cx-compare,.cx-industries');
