@@ -8,9 +8,11 @@ readTime: 7
 permalink: /blog/from-demo-to-handoff-inside-a-commercial-reno/
 furtherReading:
   - text: "Our Process"
-    url: /process
-  - text: "Start Your Project"
-    url: /contact
+    url: /process/
+  - text: "Client Testimonials"
+    url: /testimonials/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 Let's walk through a real project type: a 3,500 sq ft office tenant improvement in a mid-rise commercial building in Mississauga. Vacant space, full fit-out from shell, 7-week timeline. Here's how it goes when it goes well.

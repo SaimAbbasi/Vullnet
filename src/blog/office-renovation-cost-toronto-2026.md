@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 8
 permalink: /blog/office-renovation-cost-toronto-2026/
 furtherReading:
-  - text: "Office Renovation in Mississauga"
-    url: /office-renovation-mississauga
-  - text: "Commercial Renovation Toronto"
-    url: /commercial-renovation-toronto
-  - text: "Get an Itemized Quote"
-    url: /contact
+  - text: "Office Renovation Contractor Toronto"
+    url: /office-renovation-toronto/
+  - text: "Interactive Cost Estimator Tool"
+    url: /cost-estimator/
+  - text: "Office Renovation Mississauga"
+    url: /office-renovation-mississauga/
 ---
 
 One of the most common questions we hear before a site visit: "What should this cost?" It is a fair question, and the vague answers you find online ("it depends") are not helpful when you are trying to put a number in front of a CFO or a landlord.

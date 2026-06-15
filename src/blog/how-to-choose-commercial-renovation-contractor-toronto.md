@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/how-to-choose-commercial-renovation-contractor-toronto/
 furtherReading:
-  - text: "How Trade Coordination Actually Works"
-    url: /blog/how-trade-coordination-works/
-  - text: "From Demo to Handoff: Inside a Commercial Reno"
-    url: /blog/from-demo-to-handoff-inside-a-commercial-reno/
-  - text: "Our Process"
-    url: /process
+  - text: "Commercial Renovation Toronto"
+    url: /commercial-renovation-toronto/
+  - text: "Our Process: Scope to Handoff"
+    url: /process/
+  - text: "Client Testimonials"
+    url: /testimonials/
 ---
 
 Choosing the wrong commercial renovation contractor in Toronto doesn't just cost you money. It costs you your schedule, your client relationship, and sometimes your reputation. The GTA construction market is crowded with firms that look identical on paper. Here's how to cut through the noise.

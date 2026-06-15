@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 7
 permalink: /blog/commercial-renovation-scope-of-work-contract/
 furtherReading:
-  - text: "How to Read a Commercial Construction Quote"
-    url: /blog/how-to-read-a-commercial-construction-quote/
-  - text: "5 Reasons Commercial Renovations Go Over Budget"
-    url: /blog/why-commercial-renovations-go-over-budget/
-  - text: "Get a Detailed VNG Proposal"
-    url: /contact
+  - text: "Our Process"
+    url: /process/
+  - text: "Get a Quote"
+    url: /contact/
+  - text: "Client Testimonials"
+    url: /testimonials/
 ---
 
 Most commercial renovation disputes trace back to the same root cause: a contract that did not clearly define what was included, what was excluded, and who was responsible for what. A well-written scope of work document is not a legal formality, it is the operating manual for the project. Here is what it should contain.

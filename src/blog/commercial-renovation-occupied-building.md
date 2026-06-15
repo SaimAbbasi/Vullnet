@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 7
 permalink: /blog/commercial-renovation-occupied-building/
 furtherReading:
-  - text: "Commercial Renovation Permit Guide Ontario"
-    url: /blog/commercial-renovation-permit-guide-ontario/
-  - text: "5 Reasons Commercial Renovations Go Over Budget"
-    url: /blog/why-commercial-renovations-go-over-budget/
-  - text: "Get a Quote for Your Project"
-    url: /contact
+  - text: "Fast-Track Commercial Renovation"
+    url: /fast-track-commercial-renovation/
+  - text: "Medical Office Renovation Toronto"
+    url: /medical-office-renovation-toronto/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 Renovating an occupied commercial building, or a space in a building where other tenants are operating, is one of the more logistically complex scenarios in commercial construction. The constraints are real: noise restrictions, limited access windows, shared mechanical systems, and the need to keep other occupants functioning normally throughout construction.

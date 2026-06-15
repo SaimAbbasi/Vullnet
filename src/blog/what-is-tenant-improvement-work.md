@@ -7,10 +7,12 @@ tags: [blog]
 readTime: 5
 permalink: /blog/what-is-tenant-improvement-work/
 furtherReading:
-  - text: "Our Services"
-    url: /services
-  - text: "How to Choose a Contractor"
-    url: /blog/how-to-choose-commercial-renovation-contractor-toronto/
+  - text: "Office Renovation Toronto"
+    url: /office-renovation-toronto/
+  - text: "All Commercial Services"
+    url: /services/
+  - text: "Cost Estimator Tool"
+    url: /cost-estimator/
 ---
 
 If you're negotiating a commercial lease in Ontario, you'll encounter the term "tenant improvement allowance," or TI. It's one of the most commonly misunderstood elements of a commercial lease, and getting it wrong can cost both tenants and building owners significantly.

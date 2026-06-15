@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 5
 permalink: /blog/wsib-insurance-commercial-contractor-ontario/
 furtherReading:
-  - text: "How to Choose a Commercial Contractor in Toronto"
-    url: /blog/how-to-choose-commercial-renovation-contractor-toronto/
-  - text: "How to Read a Commercial Construction Quote"
-    url: /blog/how-to-read-a-commercial-construction-quote/
-  - text: "Verify VNG's Credentials"
-    url: /contact
+  - text: "About VNG"
+    url: /about/
+  - text: "Our Process"
+    url: /process/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 WSIB clearance and insurance documentation are the two most commonly skipped steps in contractor selection, and they are the two that create the most serious liability exposure when something goes wrong on site. This guide explains what each document means, what to ask for, and what you are exposed to if you proceed without them.

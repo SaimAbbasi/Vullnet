@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/industrial-office-buildout-ontario/
 furtherReading:
-  - text: "Office Renovation Costs Toronto 2026"
-    url: /blog/office-renovation-cost-toronto-2026/
-  - text: "Commercial Renovation Permit Guide Ontario"
-    url: /blog/commercial-renovation-permit-guide-ontario/
-  - text: "Get an Industrial Build-Out Quote"
-    url: /contact
+  - text: "Commercial Renovation Brampton"
+    url: /commercial-renovation-brampton/
+  - text: "Commercial Renovation Hamilton"
+    url: /commercial-renovation-hamilton/
+  - text: "Commercial Permits Toronto & GTA"
+    url: /commercial-permits-toronto/
 ---
 
 Industrial office build-outs are a distinct category of commercial construction, different in code requirements, HVAC design, structural considerations, and cost drivers from a standard office in a Class A tower. If you are building out the office component of an industrial or warehouse space in Ontario, this guide covers what you need to know before you start.

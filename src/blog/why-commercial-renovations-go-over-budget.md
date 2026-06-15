@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/why-commercial-renovations-go-over-budget/
 furtherReading:
-  - text: "Office Renovation Cost in Toronto 2026"
-    url: /blog/office-renovation-cost-toronto-2026/
   - text: "How to Read a Construction Quote"
     url: /blog/how-to-read-a-commercial-construction-quote/
-  - text: "VNG's Approach to Transparent Quoting"
-    url: /contact
+  - text: "Our Process"
+    url: /process/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 Budget overruns in commercial renovation are common enough that many project managers simply budget a 15–20% contingency and accept the problem as unavoidable. It is not unavoidable. Most overruns trace back to a small set of predictable causes, and all of them can be addressed before the project starts.

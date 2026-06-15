@@ -7,10 +7,12 @@ tags: [blog]
 readTime: 5
 permalink: /blog/retail-buildout-checklist/
 furtherReading:
-  - text: "Our Full Service Scope"
-    url: /services
+  - text: "Retail Fit-Out GTA"
+    url: /retail-fitout-gta/
+  - text: "Commercial Renovation Toronto"
+    url: /commercial-renovation-toronto/
   - text: "Get a Quote"
-    url: /contact
+    url: /contact/
 ---
 
 A retail buildout involves more moving parts than most tenants expect. Whether you're building out a new space from shell or refreshing an existing fit-out, here are the 12 things your contractor should be managing, and what to watch for at each stage.

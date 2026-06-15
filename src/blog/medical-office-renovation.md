@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 5
 permalink: /blog/medical-office-renovation/
 furtherReading:
-  - text: "How to Choose a Commercial Renovation Contractor"
-    url: /blog/how-to-choose-commercial-renovation-contractor-toronto/
-  - text: "View Our Projects"
-    url: /projects
-  - text: "Get a Quote"
-    url: /contact
+  - text: "Medical Office Renovation Toronto"
+    url: /medical-office-renovation-toronto/
+  - text: "Medical Office Renovation Mississauga"
+    url: /medical-office-renovation-mississauga/
+  - text: "Pharmacy Renovation Toronto"
+    url: /pharmacy-renovation-toronto/
 ---
 
 A medical office renovation isn't just a commercial renovation with different end users. It involves regulatory requirements, infection control protocols, specialized MEP demands, and accessibility standards that most general commercial contractors haven't dealt with.

@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/how-to-read-a-commercial-construction-quote/
 furtherReading:
-  - text: "What Is Tenant Improvement Work?"
-    url: /blog/what-is-tenant-improvement-work/
-  - text: "How to Choose a Commercial Contractor"
-    url: /blog/how-to-choose-commercial-renovation-contractor-toronto/
-  - text: "Request an Itemized VNG Quote"
-    url: /contact
+  - text: "Our Process"
+    url: /process/
+  - text: "Cost Estimator Tool"
+    url: /cost-estimator/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 Most project managers review construction quotes the wrong way, they go straight to the total and compare it to the other totals. That approach guarantees you will be surprised at the end of the project.

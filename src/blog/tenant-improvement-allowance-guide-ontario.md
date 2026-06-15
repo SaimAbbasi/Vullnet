@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/tenant-improvement-allowance-guide-ontario/
 furtherReading:
-  - text: "What Is Tenant Improvement Work?"
-    url: /blog/what-is-tenant-improvement-work/
-  - text: "Office Renovation Costs Toronto 2026"
-    url: /blog/office-renovation-cost-toronto-2026/
-  - text: "Get a Quote Before Signing Your Lease"
-    url: /contact
+  - text: "Office Renovation Toronto"
+    url: /office-renovation-toronto/
+  - text: "Commercial Renovation Toronto"
+    url: /commercial-renovation-toronto/
+  - text: "Cost Estimator Tool"
+    url: /cost-estimator/
 ---
 
 The tenant improvement allowance is one of the most negotiable elements of a commercial lease, and one of the most poorly understood. Tenants who do not understand how TI allowances work often sign leases with allowances that will not cover the actual build-out cost, then discover the problem after they are legally committed to the space.

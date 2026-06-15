@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/how-trade-coordination-works/
 furtherReading:
-  - text: "From Demo to Handoff: Inside a Commercial Reno"
-    url: /blog/from-demo-to-handoff-inside-a-commercial-reno/
-  - text: "The Real Cost of a Missed Deadline"
-    url: /blog/real-cost-missed-deadline-commercial-construction/
   - text: "Our Process"
-    url: /process
+    url: /process/
+  - text: "Commercial Renovation Toronto"
+    url: /commercial-renovation-toronto/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 "Trade coordination" appears in every contractor's pitch deck and means almost nothing without specifics. Here's what it actually involves on a live commercial renovation site.

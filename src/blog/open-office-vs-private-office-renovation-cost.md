@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/open-office-vs-private-office-renovation-cost/
 furtherReading:
-  - text: "Office Renovation Costs Toronto 2026"
-    url: /blog/office-renovation-cost-toronto-2026/
-  - text: "Tenant Improvement Allowance Guide Ontario"
-    url: /blog/tenant-improvement-allowance-guide-ontario/
-  - text: "Get a Layout Quote"
-    url: /contact
+  - text: "Office Renovation Toronto"
+    url: /office-renovation-toronto/
+  - text: "Cost Estimator Tool"
+    url: /cost-estimator/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 The debate between open-plan and private office layouts is usually framed as a culture and productivity question. But there is a real cost dimension that rarely gets discussed clearly: the two configurations have different renovation cost profiles, different operating cost profiles, and different future flexibility implications. Here is what the numbers actually look like.

@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 7
 permalink: /blog/commercial-renovation-permit-guide-ontario/
 furtherReading:
-  - text: "How to Choose a Commercial Contractor in Toronto"
-    url: /blog/how-to-choose-commercial-renovation-contractor-toronto/
-  - text: "Our Process: From Quote to Handoff"
-    url: /process
-  - text: "Get a Quote for Your Project"
-    url: /contact
+  - text: "Commercial Permits Toronto & GTA"
+    url: /commercial-permits-toronto/
+  - text: "Our Process: Permit to Handoff"
+    url: /process/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 Permits are one of the most misunderstood parts of a commercial renovation in Ontario. Tenants and building owners routinely underestimate what requires a permit, how long approvals take, and what the consequences are for skipping the process. This guide covers what you actually need to know before you start.

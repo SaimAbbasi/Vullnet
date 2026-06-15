@@ -8,11 +8,11 @@ readTime: 7
 permalink: /blog/restaurant-kitchen-layout-commercial-buildout/
 furtherReading:
   - text: "Restaurant Renovation Toronto"
-    url: /restaurant-renovation-toronto
-  - text: "Commercial Renovation Permit Guide Ontario"
-    url: /blog/commercial-renovation-permit-guide-ontario/
-  - text: "Get a Restaurant Build-Out Quote"
-    url: /contact
+    url: /restaurant-renovation-toronto/
+  - text: "Commercial Permits Toronto"
+    url: /commercial-permits-toronto/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 A restaurant kitchen is the most mechanically complex space in commercial construction. The combination of commercial ventilation, Type I and Type II hood systems, grease interceptors, fire suppression, specialized plumbing, and health department requirements means that mistakes made early in the design phase are expensive to correct once construction is underway.

@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 7
 permalink: /blog/dental-office-renovation-guide-ontario/
 furtherReading:
-  - text: "Medical Office Renovation Toronto & GTA"
-    url: /medical-office-renovation-toronto
-  - text: "Commercial Renovation Permit Guide Ontario"
-    url: /blog/commercial-renovation-permit-guide-ontario/
-  - text: "Get a Dental Office Quote"
-    url: /contact
+  - text: "Medical Office Renovation Toronto"
+    url: /medical-office-renovation-toronto/
+  - text: "Pharmacy Renovation Toronto"
+    url: /pharmacy-renovation-toronto/
+  - text: "Commercial Permits Toronto"
+    url: /commercial-permits-toronto/
 ---
 
 Dental office construction is one of the more technically demanding categories of commercial renovation. The combination of specialized plumbing, cabinetry requirements, infection control standards, and the need to meet both Ontario Building Code and RCDSO facility standards means a general commercial contractor without dental experience will cost you time and money.

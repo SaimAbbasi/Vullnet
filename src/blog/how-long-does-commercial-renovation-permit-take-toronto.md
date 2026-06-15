@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/how-long-does-commercial-renovation-permit-take-toronto/
 furtherReading:
-  - text: "Commercial Renovation Permit Guide Ontario"
-    url: /blog/commercial-renovation-permit-guide-ontario/
-  - text: "5 Reasons Commercial Renovations Go Over Budget"
-    url: /blog/why-commercial-renovations-go-over-budget/
-  - text: "Plan Your Project Timeline"
-    url: /contact
+  - text: "Commercial Permit Management GTA"
+    url: /commercial-permits-toronto/
+  - text: "Fast-Track Commercial Renovation"
+    url: /fast-track-commercial-renovation/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 Permit timelines are one of the most commonly misjudged variables in commercial renovation project planning. Contractors who have not been working in a specific municipality recently may quote timelines based on how things were two years ago, not how they are today. This guide gives you realistic current expectations for the GTA's major municipalities and what you can do to minimize review time.

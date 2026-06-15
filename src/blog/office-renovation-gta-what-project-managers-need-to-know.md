@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 7
 permalink: /blog/office-renovation-gta-what-project-managers-need-to-know/
 furtherReading:
-  - text: "What Is Tenant Improvement Work?"
-    url: /blog/what-is-tenant-improvement-work/
-  - text: "How Trade Coordination Actually Works"
-    url: /blog/how-trade-coordination-works/
-  - text: "View Our Office Projects"
-    url: /projects
+  - text: "Office Renovation Toronto"
+    url: /office-renovation-toronto/
+  - text: "Office Renovation Mississauga"
+    url: /office-renovation-mississauga/
+  - text: "Cost Estimator Tool"
+    url: /cost-estimator/
 ---
 
 An office renovation in the Greater Toronto Area is rarely just a cosmetic refresh. Between tenant improvement clauses, base building coordination, live-occupancy constraints, and the sheer density of trades required, a mid-size office fit-out is one of the most operationally complex scopes in commercial construction.

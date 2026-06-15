@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/aoda-compliance-commercial-renovation-ontario/
 furtherReading:
-  - text: "Commercial Renovation Permit Guide Ontario"
-    url: /blog/commercial-renovation-permit-guide-ontario/
-  - text: "Medical Office Renovation GTA"
-    url: /medical-office-renovation-toronto
-  - text: "Get a Quote for Your Project"
-    url: /contact
+  - text: "Medical Office Renovation Toronto"
+    url: /medical-office-renovation-toronto/
+  - text: "Daycare Renovation Ontario"
+    url: /daycare-renovation-ontario/
+  - text: "Commercial Permits Toronto"
+    url: /commercial-permits-toronto/
 ---
 
 AODA compliance in commercial renovation is one of those areas where clients often do not know what they are obligated to do until a building inspector or their lawyer tells them. This guide covers the key requirements clearly, without the legal language that makes the actual legislation difficult to act on.

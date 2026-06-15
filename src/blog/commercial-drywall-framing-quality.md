@@ -7,10 +7,12 @@ tags: [blog]
 readTime: 5
 permalink: /blog/commercial-drywall-framing-quality/
 furtherReading:
-  - text: "Walls & Ceilings Service"
-    url: /services
-  - text: "Our Quality Standards"
-    url: /values
+  - text: "Our Services"
+    url: /services/
+  - text: "Office Renovation Toronto"
+    url: /office-renovation-toronto/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 Walk through a freshly completed commercial renovation and the quality of the drywall finish is one of the first things you'll notice, or more accurately, the first thing you'll notice if something went wrong. Waves in painted walls, tape seams that show through the finish coat, corners that aren't quite plumb. These aren't painting problems. They're framing problems.

@@ -7,10 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/restaurant-renovation-toronto/
 furtherReading:
-  - text: "Trade Coordination & Scaling"
-    url: /services
-  - text: "How We Work"
-    url: /process
+  - text: "Restaurant Renovation Toronto"
+    url: /restaurant-renovation-toronto/
+  - text: "Fast-Track Commercial Renovation"
+    url: /fast-track-commercial-renovation/
+  - text: "Commercial Permits Toronto"
+    url: /commercial-permits-toronto/
 ---
 
 Restaurant renovations are among the most operationally complex scopes in commercial construction. Dense MEP systems, health code requirements, tight timelines driven by operator revenue needs, and the physical demands of a commercial kitchen; all of it converges in a space that's often smaller than a suburban living room.

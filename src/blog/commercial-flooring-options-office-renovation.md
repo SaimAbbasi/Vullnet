@@ -7,12 +7,12 @@ tags: [blog]
 readTime: 6
 permalink: /blog/commercial-flooring-options-office-renovation/
 furtherReading:
-  - text: "Office Renovation Costs Toronto 2026"
-    url: /blog/office-renovation-cost-toronto-2026/
-  - text: "How to Read a Commercial Construction Quote"
-    url: /blog/how-to-read-a-commercial-construction-quote/
-  - text: "Get a Flooring Quote for Your Office"
-    url: /contact
+  - text: "Office Renovation Toronto"
+    url: /office-renovation-toronto/
+  - text: "Cost Estimator Tool"
+    url: /cost-estimator/
+  - text: "Get a Quote"
+    url: /contact/
 ---
 
 Flooring is one of the highest-impact finish decisions in an office renovation, visually, functionally, and from a budget perspective. It is also one of the most common areas where allowances in renovation quotes create surprises at the end of a project. This guide compares the main commercial flooring options for office renovations in Ontario and helps you make the decision with full cost visibility before the project starts.
