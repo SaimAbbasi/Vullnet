@@ -13,10 +13,25 @@ isBlogPost: true
   "url": "https://www.vullnetnuragroup.com{{ page.url }}",
   "author": {
     "@type": "Organization",
-    "name": "Vullnet Nura Group"
+    "name": "Vullnet Nura Group",
+    "url": "https://www.vullnetnuragroup.com"
   },
   "publisher": {
     "@type": "Organization",
+    "name": "Vullnet Nura Group",
+    "url": "https://www.vullnetnuragroup.com",
+    "logo": {"@type": "ImageObject", "url": "https://www.vullnetnuragroup.com/public/og-image.png"}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.vullnetnuragroup.com{{ page.url }}"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".bp-meta", "h2", "p"]
+  },
+  "about": {
+    "@type": "LocalBusiness",
     "name": "Vullnet Nura Group",
     "url": "https://www.vullnetnuragroup.com"
   }

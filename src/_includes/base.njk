@@ -7,6 +7,7 @@
 <meta name="description" content="{{ description or site.defaultDescription }}">
 <meta name="robots" content="{{ robots or 'index, follow' }}">
 <meta name="theme-color" content="#1a1a1a">
+{% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
 <link rel="canonical" href="{{ site.baseUrl }}{{ permalink or page.url }}">
 
 <!-- Favicon -->
@@ -106,7 +107,14 @@
     "reviewCount": "47",
     "bestRating": "5",
     "worstRating": "1"
-  }
+  },
+  "hasCredential": [
+    {"@type": "EducationalOccupationalCredential", "credentialCategory": "WSIB Clearance Certificate", "recognizedBy": {"@type": "Organization", "name": "Workplace Safety and Insurance Board of Ontario"}},
+    {"@type": "EducationalOccupationalCredential", "credentialCategory": "Commercial General Liability Insurance", "description": "$5 million CGL insurance coverage"}
+  ],
+  "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 15, "maxValue": 50},
+  "paymentAccepted": "Cheque, EFT, Wire Transfer",
+  "currenciesAccepted": "CAD"
 }
 </script>
 <script type="application/ld+json">
