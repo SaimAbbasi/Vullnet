@@ -210,6 +210,46 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
   }, { passive: true });
 })();
 
+// ---- Blog listing: show more ----
+(function() {
+  const btn = document.getElementById('bl-show-more');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.bl-hidden').forEach(el => el.classList.remove('bl-hidden'));
+    btn.parentElement.remove();
+  });
+})();
+
+// ---- Projects: lightbox ----
+(function() {
+  const lb = document.createElement('div');
+  lb.className = 'cx-lightbox';
+  lb.setAttribute('role', 'dialog');
+  lb.setAttribute('aria-modal', 'true');
+  lb.innerHTML = '<button class="cx-lightbox-close" aria-label="Close">&times;</button><img src="" alt=""><div class="cx-lightbox-caption"></div>';
+  document.body.appendChild(lb);
+  const lbImg = lb.querySelector('img');
+  const lbCap = lb.querySelector('.cx-lightbox-caption');
+
+  document.querySelectorAll('.cx-problem-card img, .cx-proof-card img').forEach(img => {
+    const wrap = img.parentElement;
+    wrap.classList.add('cx-proj-img-wrap');
+    wrap.style.cursor = 'zoom-in';
+    img.addEventListener('click', () => {
+      lbImg.src = img.src.replace(/w=\d+/, 'w=1400');
+      lbImg.alt = img.alt;
+      lbCap.textContent = img.alt;
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLb() { lb.classList.remove('open'); document.body.style.overflow = ''; }
+  lb.querySelector('.cx-lightbox-close').addEventListener('click', closeLb);
+  lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+})();
+
 // ---- Back to top button ----
 (function() {
   const btn = document.getElementById('cx-back-top');

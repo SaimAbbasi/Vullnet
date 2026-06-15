@@ -70,6 +70,25 @@ isBlogPost: true
         Copy link
       </button>
     </div>
+    <!-- Newsletter signup -->
+    <div class="bp-newsletter r">
+      <div class="bp-newsletter-inner">
+        <div class="bp-newsletter-text">
+          <div class="cx-eyebrow" style="margin-bottom:8px">Stay in the loop</div>
+          <h3>Get new guides delivered<br>to your inbox.</h3>
+          <p>Practical renovation knowledge for project managers and building owners. No filler.</p>
+        </div>
+        <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="bp-newsletter-form">
+          <input type="hidden" name="form-name" value="newsletter">
+          <input type="hidden" name="bot-field" style="display:none">
+          <div class="bp-nl-row">
+            <input type="email" name="email" placeholder="your@email.com" required class="bp-nl-input" aria-label="Email address">
+            <button type="submit" class="bp-nl-btn">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <div class="bp-cta r-scale">
       <div class="cta-line"></div>
       <h2>Ready to start your project?</h2>
@@ -78,3 +97,23 @@ isBlogPost: true
     </div>
   </div>
 </article>
+
+<!-- Related posts -->
+{% set related = collections.blog | exclude(page.url) | limit(3) %}
+{% if related.length %}
+<section class="bp-related">
+  <div class="bp-container">
+    <div class="cx-eyebrow" style="margin-bottom:24px">Keep Reading</div>
+    <div class="bp-related-grid">
+      {% for post in related %}
+      <article class="bp-related-card r">
+        <div class="bp-related-meta">{{ post.date | readableDate }} &middot; {{ post.data.readTime }} min</div>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+        <a href="{{ post.url }}" class="bl-read-more">Read Article <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

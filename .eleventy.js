@@ -10,6 +10,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("isoDate", date =>
     new Date(date).toISOString().split("T")[0]
   );
+  eleventyConfig.addFilter("urlencode", str => encodeURIComponent(str));
+  eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
+  eleventyConfig.addFilter("exclude", (arr, url) => arr.filter(p => p.url !== url));
 
   return {
     dir: {

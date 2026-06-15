@@ -10,14 +10,18 @@ permalink: /blog/
     <div style="font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:16px" class="r-left">From the Field</div>
     <h1 class="r-left">Commercial Renovation<br><span style="color:var(--red)">Insights.</span></h1>
     <p class="r-left">Practical knowledge for project managers, building owners, and anyone navigating a commercial renovation in Ontario.</p>
+    <a href="/blog/feed.xml" class="bl-rss r-left" aria-label="RSS feed">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
+      RSS Feed
+    </a>
   </div>
 </div>
 
 <section class="bl-listing">
   <div class="container">
-    <div class="bl-grid stagger">
+    <div class="bl-grid stagger" id="bl-grid">
       {% for post in collections.blog %}
-      <article class="bl-card r">
+      <article class="bl-card r{% if loop.index > 12 %} bl-hidden{% endif %}">
         <div class="bl-meta">
           <span>{{ post.date | readableDate }}</span>
           <span class="bl-dot">·</span>
@@ -29,6 +33,11 @@ permalink: /blog/
       </article>
       {% endfor %}
     </div>
+    {% if collections.blog.length > 12 %}
+    <div style="text-align:center;margin-top:48px">
+      <button class="btn" id="bl-show-more" style="border:1px solid rgba(255,255,255,.15);color:var(--gray2);padding:12px 32px;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:transparent;cursor:pointer">Load More Articles</button>
+    </div>
+    {% endif %}
   </div>
 </section>
 

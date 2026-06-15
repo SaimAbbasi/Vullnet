@@ -96,6 +96,13 @@
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
     "opens": "08:00",
     "closes": "18:00"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "47",
+    "bestRating": "5",
+    "worstRating": "1"
   }
 }
 </script>
@@ -106,8 +113,10 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.vullnetnuragroup.com/"},
-    {"@type":"ListItem","position":2,"name":"{{ title }}","item":"https://www.vullnetnuragroup.com{{ page.url }}"}
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.vullnetnuragroup.com/"}{% if isBlogPost %},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://www.vullnetnuragroup.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"{{ title | replace('"','&quot;') }}","item":"https://www.vullnetnuragroup.com{{ page.url }}"}{% else %},
+    {"@type":"ListItem","position":2,"name":"{{ title | replace('"','&quot;') }}","item":"https://www.vullnetnuragroup.com{{ page.url }}"}{% endif %}
   ]
 }
 </script>
@@ -120,6 +129,7 @@
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script> -->
 
+<link rel="alternate" type="application/rss+xml" title="VNG Blog" href="/blog/feed.xml">
 <link rel="stylesheet" href="/public/css/fonts.css">
 <link rel="stylesheet" href="/public/css/style.css">
 </head>
