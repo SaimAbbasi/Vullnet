@@ -42,6 +42,9 @@
   "description": "Commercial interior renovation contractor serving the Greater Toronto Area. Specializing in office tenant improvements, medical office renovations, restaurant fit-outs, retail buildouts, and industrial renovations. 1000+ projects delivered on time across Ontario.",
   "url": "{{ site.baseUrl }}",
   "email": "{{ site.email }}",
+  "foundingDate": "2013",
+  "slogan": "Deadline-first commercial interior renovation across the GTA",
+  "founder": {"@type": "Person", "name": "Vullnet Nura", "jobTitle": "Founder and Principal"},
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Mississauga",
@@ -105,6 +108,9 @@
     "worstRating": "1"
   }
 }
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Vullnet Nura Group","url":"https://www.vullnetnuragroup.com","description":"Commercial interior renovation contractor serving the Greater Toronto Area. Office tenant improvements, medical offices, restaurant fit-outs, retail, and industrial renovations.","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.vullnetnuragroup.com/faq/?q={search_term_string}"},"query-input":"required name=search_term_string"}}
 </script>
 {{ jsonLd | safe if jsonLd }}
 {% if page.url != '/' %}
