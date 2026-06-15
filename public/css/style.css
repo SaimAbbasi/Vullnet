@@ -734,6 +734,11 @@ body.cx-clicking .cx-cursor-ring{width:18px;height:18px;opacity:.7;border-color:
 .cx-ba-handle{transition:left .05s linear}
 @media(max-width:600px){.cx-ba-wrap{max-width:100%!important}}
 
+/* ---- DESKTOP STICKY PHONE TAB ---- */
+.cx-phone-tab{display:none;position:fixed;left:-110px;top:50%;transform:translateY(-50%) rotate(-90deg);transform-origin:left center;z-index:87;background:var(--dark2);color:var(--gray2);text-decoration:none;padding:10px 20px;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;border:1px solid rgba(255,255,255,.1);transition:left .4s cubic-bezier(.16,1,.3,1),color .2s;white-space:nowrap}
+.cx-phone-tab:hover{color:var(--pure);left:-100px}
+@media(min-width:1100px){.cx-phone-tab{display:block;left:0}}
+
 /* ---- SCROLL-TRIGGERED QUOTE TAB ---- */
 .cx-quote-tab{position:fixed;right:-120px;top:50%;transform:translateY(-50%) rotate(90deg);transform-origin:right center;z-index:88;background:var(--red);color:var(--pure);text-decoration:none;padding:10px 20px;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;transition:right .4s cubic-bezier(.16,1,.3,1);display:flex;align-items:center;box-shadow:-4px 0 16px rgba(0,0,0,.4)}
 .cx-quote-tab.visible{right:-8px}
