@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Open Office vs. Private Office Renovation — Cost Comparison and What Actually Drives the Difference"
+title: "Open Office vs. Private Office Renovation, Cost Comparison and What Actually Drives the Difference"
 description: "A detailed cost comparison between open-plan and private office renovation in the GTA. What you pay for in each layout, where the cost differences come from, and which configuration delivers better value."
 date: 2026-03-11
 tags: [blog]
@@ -30,7 +30,7 @@ For a typical 5,000 sq ft office renovation in the GTA, here is how open-plan an
 
 **Private office configuration (closed offices, meeting rooms, corridors):**
 - Substantially more interior framing (every office is a framed and drywalled room)
-- More doors (each private office requires a door, hardware, and frame — typically $800–$1,500 per door installed)
+- More doors (each private office requires a door, hardware, and frame, typically $800–$1,500 per door installed)
 - More sound insulation (acoustic batt in walls, often acoustic sealant at penetrations)
 - Simpler ceiling (each room has a defined ceiling area; no long-span acoustics challenges)
 - Typical cost range: **$100–$150 per square foot**
@@ -49,15 +49,15 @@ Private offices each require a door, frame, and hardware set. Commercial doors a
 
 ### Acoustics
 
-Open-plan offices manage acoustic privacy through background masking systems, acoustic ceiling tiles, and soft surface furnishings — all of which are relatively inexpensive from a construction standpoint. Private offices require sound attenuation in the walls: acoustic batt, decoupled framing in some cases, acoustic sealant at all penetrations. Add $8–$15 per linear foot of wall for proper acoustic treatment.
+Open-plan offices manage acoustic privacy through background masking systems, acoustic ceiling tiles, and soft surface furnishings, all of which are relatively inexpensive from a construction standpoint. Private offices require sound attenuation in the walls: acoustic batt, decoupled framing in some cases, acoustic sealant at all penetrations. Add $8–$15 per linear foot of wall for proper acoustic treatment.
 
 ### HVAC
 
-Open-plan spaces require more HVAC distribution to cover the floor plate evenly, but the diffusers and ductwork per zone are simpler. Private offices require individual zone control (or at minimum, individual supply diffusers) in each room — more runs, more flex duct, more diffusers.
+Open-plan spaces require more HVAC distribution to cover the floor plate evenly, but the diffusers and ductwork per zone are simpler. Private offices require individual zone control (or at minimum, individual supply diffusers) in each room, more runs, more flex duct, more diffusers.
 
 ## Flexibility and Future Renovation Cost
 
-The cost calculation does not end at construction. Private offices create a more fixed floor plan — if the organization grows, shrinks, or reorganizes, the walls must be demolished and rebuilt. Each reconfiguration adds cost and disruption.
+The cost calculation does not end at construction. Private offices create a more fixed floor plan, if the organization grows, shrinks, or reorganizes, the walls must be demolished and rebuilt. Each reconfiguration adds cost and disruption.
 
 Open-plan spaces are inherently more flexible. The core structure (ceiling, HVAC, electrical) remains in place; workstation layouts can be reconfigured without construction. If your organization is growing, shrinking, or uncertain about headcount, open-plan layouts reduce long-term renovation exposure.
 
@@ -69,6 +69,6 @@ Most GTA office renovations land somewhere between pure open-plan and fully priv
 - Conference rooms and collaboration spaces (15–20%)
 - Breakroom, reception, storage (balance)
 
-This configuration captures the cost efficiency of open-plan for the majority of the space while providing acoustic privacy options for focused work and formal meetings. For most organizations, it also better reflects how people actually use office space — collaboration at desks, private conversations in enclosed rooms.
+This configuration captures the cost efficiency of open-plan for the majority of the space while providing acoustic privacy options for focused work and formal meetings. For most organizations, it also better reflects how people actually use office space, collaboration at desks, private conversations in enclosed rooms.
 
 [VNG provides space planning input before quoting](/contact) to help clients understand the cost implications of their layout choices before the design is finalized.

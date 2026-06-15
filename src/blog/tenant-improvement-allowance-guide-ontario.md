@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Tenant Improvement Allowance in Ontario — How to Negotiate It and Make It Work"
+title: "Tenant Improvement Allowance in Ontario, How to Negotiate It and Make It Work"
 description: "How TI allowances are structured in Ontario commercial leases, how to negotiate the right amount, and how to ensure the money actually covers your build-out needs."
 date: 2026-04-15
 tags: [blog]
@@ -15,13 +15,13 @@ furtherReading:
     url: /contact
 ---
 
-The tenant improvement allowance is one of the most negotiable elements of a commercial lease — and one of the most poorly understood. Tenants who do not understand how TI allowances work often sign leases with allowances that will not cover the actual build-out cost, then discover the problem after they are legally committed to the space.
+The tenant improvement allowance is one of the most negotiable elements of a commercial lease, and one of the most poorly understood. Tenants who do not understand how TI allowances work often sign leases with allowances that will not cover the actual build-out cost, then discover the problem after they are legally committed to the space.
 
 This guide explains how TI allowances work in Ontario, how to negotiate them, and how to structure the process so you know what you are committing to before you sign.
 
 ## How TI Allowances Are Structured
 
-A tenant improvement allowance is an amount of money the landlord agrees to contribute toward the cost of building out the leased space. It is typically expressed as a dollar amount per square foot — for example, $60 per square foot on a 3,000 sq ft space equals a $180,000 TI.
+A tenant improvement allowance is an amount of money the landlord agrees to contribute toward the cost of building out the leased space. It is typically expressed as a dollar amount per square foot, for example, $60 per square foot on a 3,000 sq ft space equals a $180,000 TI.
 
 The allowance is not paid upfront. In most structures, the landlord reimburses the tenant (or pays the contractor directly) upon completion of the work, submission of invoices, and confirmation that the work was permitted and completed to the agreed standard.
 
@@ -49,7 +49,7 @@ This happens because tenants negotiate the TI before getting construction quotes
 
 ## The Right Sequence: Quote First, Sign Second
 
-Before signing a commercial lease, get a rough construction estimate for the space. This does not need to be a detailed itemized quote — a preliminary scope review and ballpark estimate from an experienced contractor takes a day or two and costs you nothing.
+Before signing a commercial lease, get a rough construction estimate for the space. This does not need to be a detailed itemized quote, a preliminary scope review and ballpark estimate from an experienced contractor takes a day or two and costs you nothing.
 
 With a real estimate in hand, you know whether the proposed TI covers the build-out you need. If it does not, you negotiate the TI upward, negotiate a longer rent-free period to cover your construction overrun, or reassess whether the space works financially.
 
@@ -67,6 +67,6 @@ The worst possible position is to sign a lease and then discover the economics o
 
 ## Using Your Contractor to Validate the TI
 
-Once you have a TI number in the lease term sheet, ask your contractor to review it against the space and your intended build-out. A good contractor will tell you directly whether the allowance is realistic, high, or short — and by how much.
+Once you have a TI number in the lease term sheet, ask your contractor to review it against the space and your intended build-out. A good contractor will tell you directly whether the allowance is realistic, high, or short, and by how much.
 
-[VNG regularly reviews TI term sheets for clients who are evaluating spaces before signing.](/contact) Getting a reality check on whether the economics work takes a site visit and a day or two of scoping — and it has saved more than one client from a difficult situation.
+[VNG regularly reviews TI term sheets for clients who are evaluating spaces before signing.](/contact) Getting a reality check on whether the economics work takes a site visit and a day or two of scoping, and it has saved more than one client from a difficult situation.

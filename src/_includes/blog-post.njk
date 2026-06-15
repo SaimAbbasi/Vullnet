@@ -51,7 +51,7 @@ isBlogPost: true
     <div class="bp-further r">
       <div class="bp-further-label">Further Reading</div>
       {% for link in furtherReading %}
-      <a href="{{ link.url }}" class="bp-further-link">{{ link.text }} <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a href="{{ link.url }}" class="bp-further-link">{{ link.text }} <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 13L13 3M6 3h7v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       {% endfor %}
     </div>
     <!-- Social share buttons -->
@@ -93,7 +93,7 @@ isBlogPost: true
       <div class="cta-line"></div>
       <h2>Ready to start your project?</h2>
       <p>Tell us what you're building. We'll come back with a clear scope, honest timeline, and a number you can trust.</p>
-      <a href="/contact" class="btn btn-red">Get a Quote <svg class="arrow-icon" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a href="/contact" class="btn btn-red">Get a Quote <svg class="arrow-icon" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M6 3h7v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </div>
   </div>
 </article>
@@ -110,7 +110,7 @@ isBlogPost: true
         <div class="bp-related-meta">{{ post.date | readableDate }} &middot; {{ post.data.readTime }} min</div>
         <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
         <p>{{ post.data.description }}</p>
-        <a href="{{ post.url }}" class="bl-read-more">Read Article <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a href="{{ post.url }}" class="bl-read-more">Read Article <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 13L13 3M6 3h7v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </article>
       {% endfor %}
     </div>

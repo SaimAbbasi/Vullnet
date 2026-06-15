@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Dental Office Renovation Guide for Ontario Practices — What the Build Actually Involves"
+title: "Dental Office Renovation Guide for Ontario Practices, What the Build Actually Involves"
 description: "A complete guide to dental office construction and renovation in Ontario. Operatory layout, plumbing requirements, cabinetry, sterilization rooms, permits, and RCDSO considerations."
 date: 2026-04-22
 tags: [blog]
@@ -21,9 +21,9 @@ This guide covers what goes into a dental office build-out in Ontario, what driv
 
 ## The Specialized Systems in a Dental Office
 
-**Dental unit plumbing** is the most significant technical difference between a dental office and a standard medical office. Each operatory requires dedicated waterlines, vacuum lines, compressed air lines, and drain connections to serve the dental chair and associated equipment. These are not standard plumbing systems — they require coordination with the dental equipment supplier to ensure supply locations, pressures, and drainage are correct before walls close.
+**Dental unit plumbing** is the most significant technical difference between a dental office and a standard medical office. Each operatory requires dedicated waterlines, vacuum lines, compressed air lines, and drain connections to serve the dental chair and associated equipment. These are not standard plumbing systems, they require coordination with the dental equipment supplier to ensure supply locations, pressures, and drainage are correct before walls close.
 
-**Dental chairs and cabinetry** are typically supplied by a dental equipment dealer separate from the general contractor. The contractor's job is to provide the correct rough-in locations — power, plumbing, vacuum, air — at exactly the positions the dealer specifies. Coordination between the contractor and dealer is critical. Mistakes discovered after drywall is closed are expensive.
+**Dental chairs and cabinetry** are typically supplied by a dental equipment dealer separate from the general contractor. The contractor's job is to provide the correct rough-in locations, power, plumbing, vacuum, air, at exactly the positions the dealer specifies. Coordination between the contractor and dealer is critical. Mistakes discovered after drywall is closed are expensive.
 
 **Central vacuum and compressor systems** require mechanical room space for the compressor and vacuum unit, with properly sized supply and exhaust lines run throughout the office. Location, noise isolation, and vibration management all need to be addressed in the design.
 
@@ -54,10 +54,10 @@ Even for standalone dental offices not in a medical building, the standards of c
 
 Dental offices require a building permit for new construction and most significant renovations. Key areas of permit scrutiny include:
 
-- **Plumbing** — dental unit rough-ins and sterilizer drain connections
-- **HVAC** — ventilation calculations for operatories and sterilization room
-- **Electrical** — dedicated circuits for equipment-heavy spaces
-- **Barrier-free accessibility** — AODA-compliant washrooms, counter heights, and entrance requirements
+- **Plumbing**, dental unit rough-ins and sterilizer drain connections
+- **HVAC**, ventilation calculations for operatories and sterilization room
+- **Electrical**, dedicated circuits for equipment-heavy spaces
+- **Barrier-free accessibility**, AODA-compliant washrooms, counter heights, and entrance requirements
 
 In Ontario, dental office space must meet an A2 assembly classification in some cases (waiting rooms with patient seating over 30), which has additional code implications. Confirm the occupancy classification with your designer and the permit office before the drawings are finalized.
 
@@ -65,13 +65,13 @@ In Ontario, dental office space must meet an A2 assembly classification in some 
 
 Dental office construction in the GTA ranges from approximately $180–$350+ per square foot, depending on the number of operatories, level of cabinetry finish, and complexity of the plumbing and mechanical systems.
 
-A typical 1,500–2,000 sq ft dental office with 4–5 operatories, a sterilization room, consultation room, private office, and reception would budget in the $280,000–$500,000+ range for construction — not including dental equipment, chairs, X-ray equipment, and IT systems.
+A typical 1,500–2,000 sq ft dental office with 4–5 operatories, a sterilization room, consultation room, private office, and reception would budget in the $280,000–$500,000+ range for construction, not including dental equipment, chairs, X-ray equipment, and IT systems.
 
 The dental equipment package (supplied by the dealer) is separate from the construction contract and typically runs $40,000–$80,000+ per operatory.
 
 ## What to Look for in a Dental Office Contractor
 
-Experience with dental specifically — not just medical generally. Dental plumbing and equipment coordination are distinct from a typical medical office build. Ask for completed dental office references and confirm the contractor has worked directly with dental equipment dealers on plumbing coordination.
+Experience with dental specifically, not just medical generally. Dental plumbing and equipment coordination are distinct from a typical medical office build. Ask for completed dental office references and confirm the contractor has worked directly with dental equipment dealers on plumbing coordination.
 
 Ask how they handle the coordination between rough-in and equipment installation. The answer should include a clear process: obtain equipment plans from the dealer, confirm rough-in locations, complete rough-in, have dealer verify locations before walls close, and schedule final equipment installation post-substantial completion.
 

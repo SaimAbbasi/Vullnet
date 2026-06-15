@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "How to Read a Commercial Construction Quote — A Project Manager's Checklist"
+title: "How to Read a Commercial Construction Quote, A Project Manager's Checklist"
 description: "What to look for, what to question, and what to never accept in a commercial renovation quote. A practical checklist for project managers reviewing contractor proposals."
 date: 2026-05-10
 tags: [blog]
@@ -15,7 +15,7 @@ furtherReading:
     url: /contact
 ---
 
-Most project managers review construction quotes the wrong way — they go straight to the total and compare it to the other totals. That approach guarantees you will be surprised at the end of the project.
+Most project managers review construction quotes the wrong way, they go straight to the total and compare it to the other totals. That approach guarantees you will be surprised at the end of the project.
 
 Here is how to actually read a commercial renovation quote before you sign anything.
 
@@ -53,7 +53,7 @@ The exclusions list is the most important part of the quote. This is where contr
 - IT and data cabling
 - Moving and relocation
 
-None of these exclusions are inherently unreasonable. But you need to know about them before you sign so you can budget for them separately. A quote that looks $20,000 cheaper than a competitor may have excluded permit fees, engineering, and hazmat abatement — putting the real gap much closer to zero.
+None of these exclusions are inherently unreasonable. But you need to know about them before you sign so you can budget for them separately. A quote that looks $20,000 cheaper than a competitor may have excluded permit fees, engineering, and hazmat abatement, putting the real gap much closer to zero.
 
 ## Step 4: Check the Clarifications and Assumptions
 
@@ -69,7 +69,7 @@ A price without a schedule is not a complete quote. You need to know:
 - Milestone dates (rough-in completion, drywall completion, final handover)
 - What the schedule assumes (permit lead times, long-lead items)
 
-A contractor who cannot provide a schedule at quote time is not ready to execute the project. The schedule is also where you identify risks — if the contractor has assumed a 3-week permit turnaround and your municipality typically takes 6 weeks, the schedule is built on a false assumption.
+A contractor who cannot provide a schedule at quote time is not ready to execute the project. The schedule is also where you identify risks, if the contractor has assumed a 3-week permit turnaround and your municipality typically takes 6 weeks, the schedule is built on a false assumption.
 
 ## Step 6: Verify What is Included for Insurance and WSIB
 
@@ -78,7 +78,7 @@ Before any contractor starts work, you need:
 - A current WSIB clearance certificate
 - A certificate of insurance naming you as additional insured
 
-Ask for these documents at quote time. A contractor who cannot provide them immediately either does not have them or has not maintained them — both are disqualifying.
+Ask for these documents at quote time. A contractor who cannot provide them immediately either does not have them or has not maintained them, both are disqualifying.
 
 ## The One Question That Separates Good Quotes from Bad Ones
 

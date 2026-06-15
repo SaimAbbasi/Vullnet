@@ -2,8 +2,14 @@
 const burger = document.getElementById('burger');
 const navLinks = document.getElementById('navLinks');
 if (burger && navLinks) {
-  burger.addEventListener('click', () => navLinks.classList.toggle('open'));
-  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+  burger.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    document.body.style.overflow = '';
+  }));
 }
 
 // ---- Nav scroll state ----

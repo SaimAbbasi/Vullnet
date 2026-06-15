@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Office Renovation Cost in Toronto — What $150,000 Actually Gets You in 2026"
+title: "Office Renovation Cost in Toronto, What $150,000 Actually Gets You in 2026"
 description: "A realistic breakdown of commercial office renovation costs in Toronto and the GTA for 2026. What different budget levels buy, where costs go, and how to read a quote."
 date: 2026-05-15
 tags: [blog]
@@ -17,7 +17,7 @@ furtherReading:
 
 One of the most common questions we hear before a site visit: "What should this cost?" It is a fair question, and the vague answers you find online ("it depends") are not helpful when you are trying to put a number in front of a CFO or a landlord.
 
-Here is an honest breakdown of what office renovation costs in Toronto actually look like in 2026 — by budget tier, by trade, and by what drives the number up.
+Here is an honest breakdown of what office renovation costs in Toronto actually look like in 2026, by budget tier, by trade, and by what drives the number up.
 
 ## The Short Answer: $80–$200+ Per Square Foot
 
@@ -27,28 +27,28 @@ Office renovation costs in the GTA typically fall in this range:
 |---|---|
 | Basic refresh (paint, carpet, new lighting) | $25–$50/sqft |
 | Partial fit-out (some walls, new ceiling tiles, basic millwork) | $60–$100/sqft |
-| Standard TI — mid-grade finishes | $100–$150/sqft |
-| Corporate fit-out — premium finishes, custom millwork | $150–$220/sqft |
+| Standard TI, mid-grade finishes | $100–$150/sqft |
+| Corporate fit-out, premium finishes, custom millwork | $150–$220/sqft |
 | High-end or complex (feature walls, glass offices, AV integration) | $220–$350+/sqft |
 
-These are construction costs only — not furniture, AV, IT, or moving.
+These are construction costs only, not furniture, AV, IT, or moving.
 
 ## What $150,000 Actually Buys in a Toronto Office Renovation
 
 For a 1,500 sq ft office at roughly $100/sqft, $150,000 covers a solid mid-grade tenant improvement:
 
-- **Demolition and disposal** — strip back to shell, remove existing walls and finishes ($8,000–$12,000)
-- **Framing** — steel stud partition walls for 3–4 private offices and a boardroom ($12,000–$18,000)
-- **Drywall and tape** — level 4 finish throughout ($14,000–$20,000)
-- **Ceiling** — suspended T-bar grid with standard tiles ($10,000–$14,000)
-- **Flooring** — LVP in offices, carpet tile in open plan ($15,000–$22,000)
-- **Paint** — full interior, 2 coats ($6,000–$9,000)
-- **Millwork** — kitchen/breakroom cabinets, reception desk ($18,000–$28,000)
-- **Doors and hardware** — 4–6 interior doors with commercial hardware ($8,000–$14,000)
-- **Electrical** — circuit additions, pot lights, data rough-ins ($14,000–$22,000)
-- **HVAC** — zone additions, duct modifications ($10,000–$18,000)
-- **Permits and fees** — ($4,000–$7,000)
-- **General conditions, supervision, insurance** — ($12,000–$18,000)
+- **Demolition and disposal**, strip back to shell, remove existing walls and finishes ($8,000–$12,000)
+- **Framing**, steel stud partition walls for 3–4 private offices and a boardroom ($12,000–$18,000)
+- **Drywall and tape**, level 4 finish throughout ($14,000–$20,000)
+- **Ceiling**, suspended T-bar grid with standard tiles ($10,000–$14,000)
+- **Flooring**, LVP in offices, carpet tile in open plan ($15,000–$22,000)
+- **Paint**, full interior, 2 coats ($6,000–$9,000)
+- **Millwork**, kitchen/breakroom cabinets, reception desk ($18,000–$28,000)
+- **Doors and hardware**, 4–6 interior doors with commercial hardware ($8,000–$14,000)
+- **Electrical**, circuit additions, pot lights, data rough-ins ($14,000–$22,000)
+- **HVAC**, zone additions, duct modifications ($10,000–$18,000)
+- **Permits and fees**, ($4,000–$7,000)
+- **General conditions, supervision, insurance**, ($12,000–$18,000)
 
 At $150,000 for 1,500 sq ft, you will get a functional, professional-looking space with standard finishes. You will not get custom millwork throughout, glass-fronted offices, or high-end stone surfaces.
 
@@ -60,7 +60,7 @@ At $150,000 for 1,500 sq ft, you will get a functional, professional-looking spa
 
 **Glass partitions** add significant cost compared to standard drywall. Expect $600–$1,200 per linear foot for a glazed office partition system, compared to $80–$140/lf for framed drywall.
 
-**Occupancy type** affects permit complexity. If you are changing from one use classification to another — say, converting retail to office — the permit process is more complex and expensive.
+**Occupancy type** affects permit complexity. If you are changing from one use classification to another, say, converting retail to office, the permit process is more complex and expensive.
 
 ## What Drives the Cost Down (Without Compromising Quality)
 
@@ -72,9 +72,9 @@ At $150,000 for 1,500 sq ft, you will get a functional, professional-looking spa
 
 ## Why Allowances in Quotes Are a Red Flag
 
-An allowance is a placeholder — a number the contractor uses when they do not want to commit to the actual cost. A quote with "$5,000 allowance for millwork" means the contractor has not priced the millwork and will charge you whatever it actually costs when the time comes.
+An allowance is a placeholder, a number the contractor uses when they do not want to commit to the actual cost. A quote with "$5,000 allowance for millwork" means the contractor has not priced the millwork and will charge you whatever it actually costs when the time comes.
 
-Allowances protect the contractor at your expense. A properly scoped quote has no allowances — it has real line items based on what the drawings show and what was discussed on site.
+Allowances protect the contractor at your expense. A properly scoped quote has no allowances, it has real line items based on what the drawings show and what was discussed on site.
 
 When you receive a quote with allowances, ask the contractor to convert each one to a real number before you sign.
 

@@ -15,7 +15,7 @@ furtherReading:
     url: /contact
 ---
 
-Permit timelines are one of the most commonly misjudged variables in commercial renovation project planning. Contractors who have not been working in a specific municipality recently may quote timelines based on how things were two years ago — not how they are today. This guide gives you realistic current expectations for the GTA's major municipalities and what you can do to minimize review time.
+Permit timelines are one of the most commonly misjudged variables in commercial renovation project planning. Contractors who have not been working in a specific municipality recently may quote timelines based on how things were two years ago, not how they are today. This guide gives you realistic current expectations for the GTA's major municipalities and what you can do to minimize review time.
 
 ## Why Commercial Permit Timelines Vary
 
@@ -23,7 +23,7 @@ The time from permit application to permit issuance depends on several factors:
 
 **Municipality and volume.** Each municipality has its own building department with its own staffing levels and backlog. Toronto's building permit office handles vastly more applications than Vaughan's, but Vaughan experienced a surge in commercial construction activity in 2023–2025 that stretched timelines significantly.
 
-**Project complexity and occupancy classification.** A simple tenant improvement — demising walls, flooring, ceiling, no change in occupancy — is faster to review than a change-of-use application (converting retail to food service, or adding an A2 assembly occupancy classification). Complex mechanical, structural, or fire alarm work adds review cycles.
+**Project complexity and occupancy classification.** A simple tenant improvement, demising walls, flooring, ceiling, no change in occupancy, is faster to review than a change-of-use application (converting retail to food service, or adding an A2 assembly occupancy classification). Complex mechanical, structural, or fire alarm work adds review cycles.
 
 **Drawing quality.** The single biggest source of permit delays is incomplete or non-compliant drawings. A submission that comes back with major comments from the plan examiner adds 2–6 weeks per round-trip.
 
@@ -55,7 +55,7 @@ A straightforward tenant improvement for permit purposes typically includes:
 - No change in occupancy classification
 - No structural changes
 
-Projects that add to this list — new HVAC equipment, plumbing rough-ins, structural modifications, change-of-use, food service, fire suppression — move into the complex category.
+Projects that add to this list, new HVAC equipment, plumbing rough-ins, structural modifications, change-of-use, food service, fire suppression, move into the complex category.
 
 ## How to Minimize Permit Review Time
 
@@ -65,12 +65,12 @@ Projects that add to this list — new HVAC equipment, plumbing rough-ins, struc
 
 **Expedited review programs.** Toronto's "Priority Processing" service allows applicants to pay a premium for faster review. Not all municipalities offer this, and not all project types qualify, but it is worth confirming availability for time-sensitive projects.
 
-**Early application.** In municipalities with long queues, the application clock starts the day you submit — not the day you want to start construction. Submit as early as possible, even if the drawings are being refined. Revisions can be submitted as the project develops.
+**Early application.** In municipalities with long queues, the application clock starts the day you submit, not the day you want to start construction. Submit as early as possible, even if the drawings are being refined. Revisions can be submitted as the project develops.
 
 ## Building the Permit Timeline Into Your Schedule
 
 The most common mistake is treating the permit as a step that happens before the project, rather than building it into the project schedule as a parallel track.
 
-An experienced contractor should be helping you submit for permit as early as possible in the pre-construction phase — not waiting until designs are fully finalized. Early submissions that require one or two clarification rounds will often result in a permit issued earlier than a "perfect" submission filed weeks later.
+An experienced contractor should be helping you submit for permit as early as possible in the pre-construction phase, not waiting until designs are fully finalized. Early submissions that require one or two clarification rounds will often result in a permit issued earlier than a "perfect" submission filed weeks later.
 
 [VNG manages the permit submission process for all our commercial projects](/contact), including drawing coordination with the designer, submission, and follow-up with the building department. Contact us to discuss the timeline for your project.
