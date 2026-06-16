@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Open Office vs. Private Office Renovation, Cost Comparison and What Actually Drives the Difference"
+title: "Open vs Private Office Renovation: Cost Comparison"
 description: "A detailed cost comparison between open-plan and private office renovation in the GTA. What you pay for in each layout, where the cost differences come from, and which configuration delivers better value."
 date: 2026-03-11
 tags: [blog]

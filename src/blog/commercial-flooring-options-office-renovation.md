@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Commercial Flooring Options for Office Renovations, A Practical Comparison"
+title: "Commercial Flooring Options for Office Renovations"
 description: "LVT, carpet tile, polished concrete, hardwood, and porcelain tile compared for commercial office renovations in Ontario. Cost, durability, maintenance, and where each works best."
 date: 2026-03-25
 tags: [blog]

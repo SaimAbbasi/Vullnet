@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "How to Read a Commercial Construction Quote, A Project Manager's Checklist"
+title: "How to Read a Commercial Construction Quote"
 description: "What to look for, what to question, and what to never accept in a commercial renovation quote. A practical checklist for project managers reviewing contractor proposals."
 date: 2026-05-10
 tags: [blog]

@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "5 Reasons Commercial Renovations Go Over Budget, And How to Prevent Each One"
+title: "5 Reasons Commercial Renovations Go Over Budget"
 description: "The most common causes of commercial renovation cost overruns in Ontario, and what project managers can do before and during a project to prevent them."
 date: 2026-05-05
 tags: [blog]

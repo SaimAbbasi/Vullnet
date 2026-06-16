@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Commercial Renovation Permit Guide for Ontario Tenants and Building Owners"
+title: "Commercial Renovation Permit Guide for Ontario"
 description: "Everything you need to know about building permits for commercial renovations in Ontario, what requires a permit, how to apply, typical timelines, and what happens if you skip it."
 date: 2026-05-20
 tags: [blog]

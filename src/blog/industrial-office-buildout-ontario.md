@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Industrial Office Build-Out in Ontario, What's Different From Standard Office Construction"
+title: "Industrial Office Build-Out in Ontario: What's Different"
 description: "How industrial office build-outs in Ontario differ from standard commercial offices. Mezzanine offices, dock access, industrial HVAC, and what drives cost in warehouse and industrial spaces."
 date: 2026-04-08
 tags: [blog]

@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "From Demo to Handoff: Inside a Commercial Renovation with VNG"
+title: "From Demo to Handoff: Inside a VNG Renovation"
 description: "A week-by-week walkthrough of how VNG executes a mid-size commercial interior renovation, from site visit to final sign-off."
 date: 2026-04-08
 tags: [blog]

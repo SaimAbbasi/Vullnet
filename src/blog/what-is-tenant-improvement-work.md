@@ -52,3 +52,5 @@ Red flags: contractors who've never dealt with landlord-tenant dynamics, who can
 Green flags: documented TI project history, references from both landlords and tenants, a clear process for landlord coordination, and transparent change order management.
 
 The TI renovation is often a tenant's first impression of how the building ownership relationship works. A smooth delivery sets a positive tone for a lease that may run five to ten years.
+
+**Starting a tenant improvement project in the GTA?** VNG handles the full TI scope — permits, trades, schedule, and handoff. [Request a quote](/contact/) within 5 business days of a site visit.

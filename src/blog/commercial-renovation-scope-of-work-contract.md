@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Commercial Renovation Scope of Work, What a Proper Contract Should Include"
+title: "Commercial Renovation Scope of Work: Contract Guide"
 description: "What to include in a commercial renovation contract and scope of work document. The clauses, definitions, and protections that prevent disputes and keep a renovation project on track."
 date: 2026-02-25
 tags: [blog]

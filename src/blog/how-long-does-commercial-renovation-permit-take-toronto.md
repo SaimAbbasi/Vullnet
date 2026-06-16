@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "How Long Does a Commercial Renovation Permit Take in Toronto and the GTA?"
+title: "How Long Does a Commercial Permit Take in Toronto?"
 description: "Realistic permit timelines for commercial renovations in Toronto, Mississauga, Brampton, Vaughan, and Markham. What affects review time and how to avoid the delays that stretch projects by months."
 date: 2026-03-18
 tags: [blog]

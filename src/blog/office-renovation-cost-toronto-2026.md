@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Office Renovation Cost in Toronto, What $150,000 Actually Gets You in 2026"
+title: "Office Renovation Cost Toronto: What $150K Gets You"
 description: "A realistic breakdown of commercial office renovation costs in Toronto and the GTA for 2026. What different budget levels buy, where costs go, and how to read a quote."
 date: 2026-05-15
 tags: [blog]
@@ -83,3 +83,5 @@ When you receive a quote with allowances, ask the contractor to convert each one
 Before signing any contract, ask: "What is not included in this quote?" The exclusions list tells you more about the true cost of a project than the total line does. A low quote with a long exclusions list often costs more at the end than a higher quote that includes everything.
 
 [VNG's quotes are fully itemized with no allowances.](/contact) If you want a real number for your Toronto office renovation, start with a site visit.
+
+**Ready to see what your specific project costs?** VNG provides fixed, itemized quotes with no allowances — every line item explicit before you sign. [Request a quote](/contact/) within 5 business days of a site visit. Also see our [full renovation cost guide](/renovation-costs-toronto/).

@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Tenant Improvement Allowance in Ontario, How to Negotiate It and Make It Work"
+title: "Tenant Improvement Allowance in Ontario: How to Negotiate"
 description: "How TI allowances are structured in Ontario commercial leases, how to negotiate the right amount, and how to ensure the money actually covers your build-out needs."
 date: 2026-04-15
 tags: [blog]
@@ -70,3 +70,5 @@ The worst possible position is to sign a lease and then discover the economics o
 Once you have a TI number in the lease term sheet, ask your contractor to review it against the space and your intended build-out. A good contractor will tell you directly whether the allowance is realistic, high, or short, and by how much.
 
 [VNG regularly reviews TI term sheets for clients who are evaluating spaces before signing.](/contact) Getting a reality check on whether the economics work takes a site visit and a day or two of scoping, and it has saved more than one client from a difficult situation.
+
+**Getting ready to use your TIA?** VNG provides itemized quotes with no allowances so you know exactly where your TI dollars go. [Request a quote](/contact/) before your lease commencement date.

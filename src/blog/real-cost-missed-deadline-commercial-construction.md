@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "The Real Cost of a Missed Deadline in Commercial Construction"
+title: "The Real Cost of a Missed Deadline in Construction"
 description: "It's not just the contractor's problem. Here's what a delayed commercial renovation actually costs the building owner, tenant, and PM."
 date: 2026-03-20
 tags: [blog]
@@ -48,3 +48,5 @@ The majority of commercial renovation delays trace back to one of three causes:
 They build float into the schedule rather than assuming best-case. They over-communicate rather than waiting to be asked. When something falls behind, they come with a recovery plan, not just an update. They scale crew before they ask for a timeline extension.
 
 That's not a special service. It should be the baseline. The problem is it's not.
+
+**Need a contractor who commits to dates, not just targets?** VNG has delivered 1,000+ commercial projects on deadline. [Get a quote](/contact/) — we will tell you the realistic timeline upfront, not after problems arise.

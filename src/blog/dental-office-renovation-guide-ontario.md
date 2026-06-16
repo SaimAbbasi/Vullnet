@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Dental Office Renovation Guide for Ontario Practices, What the Build Actually Involves"
+title: "Dental Office Renovation Guide for Ontario Practices"
 description: "A complete guide to dental office construction and renovation in Ontario. Operatory layout, plumbing requirements, cabinetry, sterilization rooms, permits, and RCDSO considerations."
 date: 2026-04-22
 tags: [blog]

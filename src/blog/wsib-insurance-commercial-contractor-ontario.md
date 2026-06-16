@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "WSIB and Insurance, What to Check Before Hiring a Commercial Contractor in Ontario"
+title: "WSIB & Insurance: Hiring a Commercial Contractor Checklist"
 description: "What WSIB clearance, liability insurance, and additional insured status mean for Ontario commercial renovation clients. What to ask for, what to verify, and what happens if you skip this step."
 date: 2026-03-04
 tags: [blog]

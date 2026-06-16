@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Commercial Renovation in an Occupied Building, How to Manage It Without Disrupting Operations"
+title: "Renovating an Occupied Building: How to Manage It"
 description: "How to plan and execute a commercial renovation while the building or adjacent spaces remain in operation. Phasing, noise management, dust control, and communication strategies for occupied renovations."
 date: 2026-04-01
 tags: [blog]

@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "How Trade Coordination Actually Works on a Multi-Scope Commercial Project"
+title: "How Trade Coordination Works on a Commercial Project"
 description: "When five trades are on site at once, someone has to own the schedule. Here's what real trade coordination looks like, and what it costs you when it's missing."
 date: 2026-04-06
 tags: [blog]
@@ -70,3 +70,5 @@ The last question matters. Contractors who work with the same trade partners rep
 Coordination also means knowing when to call in more people. When a project is two days behind and needs to recover, the right coordinator deploys additional crew and rebuilds the schedule. That requires having the bench depth to actually do it, not just the intention to try.
 
 Coordination without the capacity to scale is just observation.
+
+**Looking for a contractor who manages all trades under one contract?** VNG coordinates every trade on your project with one point of contact and one invoice. [Request a quote](/contact/).

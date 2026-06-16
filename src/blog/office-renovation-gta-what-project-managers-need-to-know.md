@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Office Renovation in the GTA: What Project Managers Need to Know"
+title: "Office Renovation GTA: What Project Managers Need to Know"
 description: "From phased occupancy to trade sequencing: a practical guide for PMs managing their first commercial office fit-out."
 date: 2026-03-15
 tags: [blog]
@@ -64,3 +64,5 @@ The most common source of delay: MEP rough-in running late and blocking drywall.
 A written trade schedule showing all contractor start and end dates. Weekly photo documentation. A formal change order process. Direct access to the site supervisor. And a clear escalation path when something needs a fast decision.
 
 The right contractor makes your job easier. The wrong one makes you their administrator.
+
+**Managing an upcoming office renovation?** VNG works directly with project managers and property managers on TI projects across the GTA. [Request a quote](/contact/) and we will have an itemized response within 5 business days.

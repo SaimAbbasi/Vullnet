@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Restaurant Renovation in Toronto: Scope, Timeline, What to Expect"
+title: "Restaurant Renovation in Toronto: Scope & Timeline"
 description: "Restaurant renovations are one of the most demanding commercial scopes. Here's what makes them different and how to keep them on track."
 date: 2026-04-03
 tags: [blog]
@@ -68,3 +68,5 @@ What doesn't work: trying to run a full kitchen renovation in parallel with serv
 A restaurant renovation contractor should be able to show you experience with health authority inspections, relationships with commercial hood suppliers, a gas contractor on their approved sub list, and a schedule that sequences MEP rough-in with framing and shows clear dependencies.
 
 The difference between a 10-week restaurant reno and a 16-week one usually comes down to trade coordination quality in weeks 3 through 6.
+
+**Opening a restaurant in Toronto?** VNG delivers full restaurant fit-outs from demo to health department sign-off. [Request a quote](/contact/) — 5-day turnaround, committed opening dates. See our [restaurant renovation page](/restaurant-renovation-toronto/) for more.

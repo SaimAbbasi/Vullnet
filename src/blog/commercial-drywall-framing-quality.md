@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Commercial Drywall: Why Framing Quality Determines Your Finish"
+title: "Commercial Drywall: Why Framing Quality Matters"
 description: "Most finish problems start at framing. Here's what in-house drywall crews do differently, and why it matters for your handover date."
 date: 2026-04-01
 tags: [blog]
@@ -63,3 +63,5 @@ If the framing doesn't pass these checks, raising it before drywall goes up cost
 Beyond quality, framing pace controls the entire project timeline. Every day drywall hang is delayed is a day tape is delayed, which is a day paint is delayed. Framing is early on the critical path; small delays there amplify.
 
 A framing crew that moves with discipline and accuracy sets the rhythm for everything that follows.
+
+**Working on a commercial renovation in the GTA?** VNG self-performs drywall and framing with in-house crews. [Get a quote](/contact/) and see what an itemized scope looks like on your project.

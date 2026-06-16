@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Retail Buildout Checklist: 12 Things Your Contractor Should Handle"
+title: "Retail Buildout Checklist: 12 Things Your Contractor Handles"
 description: "A practical checklist for retail tenants and landlords preparing for a commercial buildout, covering scope, coordination, and handover."
 date: 2026-04-05
 tags: [blog]
@@ -60,3 +60,5 @@ A formal punch list walkthrough before handover, all items closed before keys ex
 When a contractor manages all 12 of these items with discipline, a retail buildout runs on schedule, the landlord signs off without issue, and you walk into your opening weekend with a finished space you're proud of.
 
 When items fall through the cracks, usually storefront coordination, millwork lead time, or punch list discipline, you push your opening date and spend your first weeks chasing callbacks.
+
+**Starting a retail fit-out in the GTA?** VNG manages every item on this checklist under one contract. [Request a retail fit-out quote](/contact/) and get an itemized scope within 5 business days.

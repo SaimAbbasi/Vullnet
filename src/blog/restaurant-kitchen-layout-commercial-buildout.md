@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-title: "Restaurant Kitchen Layout for Commercial Build-Outs, What Contractors and Operators Need to Get Right"
+title: "Restaurant Kitchen Layout for Commercial Build-Outs"
 description: "How kitchen layout decisions affect construction cost and operational efficiency in restaurant build-outs. Ventilation, plumbing, fire suppression, health department requirements, and the sequencing that prevents expensive mistakes."
 date: 2026-02-18
 tags: [blog]
@@ -91,3 +91,5 @@ The sequencing of restaurant kitchen design and construction determines whether 
 A contractor who does not follow this sequence will be making changes after walls are framed, pipes are in, and slabs are poured.
 
 [VNG has completed multiple restaurant build-outs across the GTA](/restaurant-renovation-toronto), managing the coordination between equipment suppliers, mechanical contractors, fire suppression specialists, and health authorities. Contact us to discuss your project.
+
+**Building a restaurant in Toronto or the GTA?** VNG manages full restaurant fit-outs from commercial kitchen MEP to front-of-house millwork. [Request a restaurant renovation quote](/contact/) with a realistic timeline for your opening date.
