@@ -78,4 +78,4 @@ In an occupied renovation, communication is as important as the physical work. T
 
 The goal is that no one is surprised. An occupied tenant who knows what to expect and receives advance notice can work around almost anything. The same disruption, unannounced, creates complaints and potential lease disputes.
 
-[VNG has managed multiple phased renovations in occupied commercial buildings across the GTA, including medical buildings, multi-tenant office towers, and retail plazas.](/contact) Contact us to discuss your project constraints.
+[VNG has managed multiple phased renovations in occupied commercial buildings across the GTA, including medical buildings, multi-tenant office towers, and retail plazas.](/contact/) Contact us to discuss your project constraints.

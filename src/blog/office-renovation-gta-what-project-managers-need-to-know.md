@@ -31,7 +31,7 @@ The first decision on any occupied office renovation is phasing:
 
 **Zone-by-zone phasing:** Work proceeds in sections while staff occupy the remaining space. Requires noise and dust controls, careful scheduling of loud work to off-hours, and a contractor who can genuinely manage the interface between active workspace and active construction.
 
-Zone-by-zone phasing sounds appealing because it avoids swing space costs. In practice, it adds 20–40% to the project timeline. If your budget allows for swing space, take it.
+Zone-by-zone phasing sounds appealing because it avoids swing space costs. In practice, it adds 20-40% to the project timeline. If your budget allows for swing space, take it.
 
 ## Trade Sequence on a Typical Office Fit-Out
 
@@ -53,7 +53,7 @@ The most common source of delay: MEP rough-in running late and blocking drywall.
 
 ## What Goes Wrong and Why
 
-**Late millwork.** Custom cabinetry has long lead times, often 6–8 weeks. If the order isn't placed in week one, it becomes the critical path item at the end of the project.
+**Late millwork.** Custom cabinetry has long lead times, often 6-8 weeks. If the order isn't placed in week one, it becomes the critical path item at the end of the project.
 
 **Sprinkler surprises.** Partition changes almost always require sprinkler head relocation. Many projects forget to scope this upfront.
 

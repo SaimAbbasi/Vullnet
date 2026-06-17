@@ -33,11 +33,11 @@ TI allowance levels vary by market, building class, lease term, and landlord. Cu
 
 | Market / Building Type | Typical TI Allowance Range |
 |---|---|
-| Downtown Toronto Class A office | $80–$130/sqft |
-| Suburban GTA office (Mississauga, Vaughan, Markham) | $50–$90/sqft |
-| Industrial units with office component | $30–$60/sqft |
-| Retail (second-generation space) | $25–$50/sqft |
-| Medical buildings | $40–$80/sqft |
+| Downtown Toronto Class A office | $80-$130/sqft |
+| Suburban GTA office (Mississauga, Vaughan, Markham) | $50-$90/sqft |
+| Industrial units with office component | $30-$60/sqft |
+| Retail (second-generation space) | $25-$50/sqft |
+| Medical buildings | $40-$80/sqft |
 
 These are market reference points, not maximums. In a tenant-favorable market or for a long-term lease with a creditworthy tenant, landlords will often go higher.
 
@@ -69,6 +69,6 @@ The worst possible position is to sign a lease and then discover the economics o
 
 Once you have a TI number in the lease term sheet, ask your contractor to review it against the space and your intended build-out. A good contractor will tell you directly whether the allowance is realistic, high, or short, and by how much.
 
-[VNG regularly reviews TI term sheets for clients who are evaluating spaces before signing.](/contact) Getting a reality check on whether the economics work takes a site visit and a day or two of scoping, and it has saved more than one client from a difficult situation.
+[VNG regularly reviews TI term sheets for clients who are evaluating spaces before signing.](/contact/) Getting a reality check on whether the economics work takes a site visit and a day or two of scoping, and it has saved more than one client from a difficult situation.
 
 **Getting ready to use your TIA?** VNG provides itemized quotes with no allowances so you know exactly where your TI dollars go. [Request a quote](/contact/) before your lease commencement date.

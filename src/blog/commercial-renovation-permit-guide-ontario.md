@@ -37,11 +37,11 @@ The building permit and the ESA permit are separate. Electrical work in Ontario 
 
 ## The Application Process in Major GTA Municipalities
 
-**Toronto:** Applications go through the City of Toronto's permit portal. Complex commercial projects often require a pre-application consultation. Expect 4–10 weeks for a complete application to be approved, depending on complexity and current backlog.
+**Toronto:** Applications go through the City of Toronto's permit portal. Complex commercial projects often require a pre-application consultation. Expect 4-10 weeks for a complete application to be approved, depending on complexity and current backlog.
 
-**Mississauga:** The City of Mississauga uses an online portal. Standard commercial TIs are typically reviewed within 3–6 weeks for a complete submission. Incomplete applications restart the clock.
+**Mississauga:** The City of Mississauga uses an online portal. Standard commercial TIs are typically reviewed within 3-6 weeks for a complete submission. Incomplete applications restart the clock.
 
-**Brampton, Vaughan, Markham, Hamilton:** Similar online portals. Review timelines vary by season and current backlog, budget 3–8 weeks for standard commercial applications.
+**Brampton, Vaughan, Markham, Hamilton:** Similar online portals. Review timelines vary by season and current backlog, budget 3-8 weeks for standard commercial applications.
 
 A complete application includes architectural drawings stamped by a registered designer or architect, a project description, site plan, and any required engineering letters. Incomplete submissions are the single largest cause of permit delays.
 

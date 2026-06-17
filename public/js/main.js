@@ -5,17 +5,20 @@ if (burger && navLinks) {
   burger.addEventListener('click', () => {
     const isOpen = navLinks.classList.toggle('open');
     document.body.style.overflow = isOpen ? 'hidden' : '';
+    burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
   });
   navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
     navLinks.classList.remove('open');
     document.body.style.overflow = '';
+    burger.setAttribute('aria-expanded', 'false');
   }));
-}
-
-// ---- Nav scroll state ----
-const nav = document.getElementById('nav');
-if (nav) {
-  window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 50) }, { passive: true });
+  document.addEventListener('click', e => {
+    if (navLinks.classList.contains('open') && !navLinks.contains(e.target) && !burger.contains(e.target)) {
+      navLinks.classList.remove('open');
+      document.body.style.overflow = '';
+      burger.setAttribute('aria-expanded', 'false');
+    }
+  });
 }
 
 // ---- Intersection reveal ----
@@ -24,37 +27,27 @@ const obs = new IntersectionObserver(entries => {
 }, { threshold: .1, rootMargin: '0px 0px -40px 0px' });
 document.querySelectorAll('.r,.r-left,.r-right,.r-scale,.cx-blur').forEach(el => obs.observe(el));
 
-// ---- Parallax on hero accents ----
-const accent1 = document.querySelector('.hero-accent-1');
-const accent2 = document.querySelector('.hero-accent-2');
-if (accent1 && accent2) {
-  window.addEventListener('scroll', () => {
-    const s = window.scrollY;
-    accent1.style.transform = `translate(${s * .03}px,${s * .05}px) scale(${1 + s * .0002})`;
-    accent2.style.transform = `translate(${-s * .02}px,${-s * .04}px) scale(${1 + s * .0001})`;
-  }, { passive: true });
+// ---- Counter animation (shared) ----
+function animateValue(el, duration, power) {
+  const text = el.textContent.trim();
+  const match = text.match(/(\d+)/);
+  if (!match) return;
+  const target = parseInt(match[1]);
+  const suffix = text.replace(match[1], '');
+  const start = performance.now();
+  function tick(now) {
+    const p = Math.min((now - start) / duration, 1);
+    const ease = 1 - Math.pow(1 - p, power);
+    el.textContent = Math.round(ease * target) + suffix;
+    if (p < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
 }
 
-// ---- Counter animation — hero stats ----
+// ---- Hero stats counter ----
 const heroStatEls = document.querySelectorAll('.hero-stat .num');
 if (heroStatEls.length) {
-  function animateValue(el) {
-    const text = el.textContent.trim();
-    const match = text.match(/(\d+)/);
-    if (!match) return;
-    const target = parseInt(match[1]);
-    const suffix = text.replace(match[1], '');
-    const duration = 1200;
-    const start = performance.now();
-    function tick(now) {
-      const p = Math.min((now - start) / duration, 1);
-      const ease = 1 - Math.pow(1 - p, 3);
-      el.textContent = Math.round(ease * target) + suffix;
-      if (p < 1) requestAnimationFrame(tick);
-    }
-    requestAnimationFrame(tick);
-  }
-  setTimeout(() => heroStatEls.forEach(animateValue), 700);
+  setTimeout(() => heroStatEls.forEach(el => animateValue(el, 1200, 3)), 700);
 }
 
 // ---- Counter animation — cx-stats sections (scroll-triggered) ----
@@ -64,20 +57,7 @@ const statsObs = new IntersectionObserver(entries => {
     e.target.querySelectorAll('.cx-stat-num').forEach(el => {
       if (el.dataset.counted) return;
       el.dataset.counted = '1';
-      const text = el.textContent.trim();
-      const match = text.match(/(\d+)/);
-      if (!match) return;
-      const target = parseInt(match[1]);
-      const suffix = text.replace(match[1], '');
-      const duration = 1600;
-      const start = performance.now();
-      function tick(now) {
-        const p = Math.min((now - start) / duration, 1);
-        const ease = 1 - Math.pow(1 - p, 4);
-        el.textContent = Math.round(ease * target) + suffix;
-        if (p < 1) requestAnimationFrame(tick);
-      }
-      requestAnimationFrame(tick);
+      animateValue(el, 1600, 4);
     });
     statsObs.unobserve(e.target);
   });
@@ -104,14 +84,63 @@ document.querySelectorAll('.cx-faq-item').forEach(item => {
   });
 });
 
-// ---- Scroll progress bar ----
-const progressBar = document.getElementById('cx-progress');
-if (progressBar) {
+// ---- Consolidated scroll handler (single listener, rAF-throttled) ----
+(function() {
+  const nav = document.getElementById('nav');
+  const progressBar = document.getElementById('cx-progress');
+  const backTopBtn = document.getElementById('cx-back-top');
+  const accent1 = document.querySelector('.hero-accent-1');
+  const accent2 = document.querySelector('.hero-accent-2');
+  const parallaxSections = document.querySelectorAll('.cx-problem,.cx-compare,.cx-industries');
+
+  // Quote tab — created once, shown after 50% scroll
+  const quoteTab = document.createElement('a');
+  quoteTab.href = '/contact';
+  quoteTab.className = 'cx-quote-tab';
+  quoteTab.setAttribute('aria-label', 'Get a Quote');
+  quoteTab.innerHTML = '<span>Get a Quote</span>';
+  document.body.appendChild(quoteTab);
+  let quoteTabShown = false;
+
+  let ticking = false;
+  function onScroll() {
+    const scrollY = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight;
+    const winHeight = window.innerHeight;
+
+    // Nav frosted-glass background
+    if (nav) nav.classList.toggle('scrolled', scrollY > 50);
+
+    // Scroll progress bar
+    if (progressBar) progressBar.style.width = (scrollY / (docHeight - winHeight) * 100) + '%';
+
+    // Back to top button
+    if (backTopBtn) backTopBtn.classList.toggle('visible', scrollY > 400);
+
+    // Quote tab — show once after 50% scroll
+    if (!quoteTabShown && scrollY > docHeight / 2) { quoteTab.classList.add('visible'); quoteTabShown = true; }
+
+    // Hero accent parallax
+    if (accent1 && accent2) {
+      accent1.style.transform = `translate(${scrollY * .03}px,${scrollY * .05}px) scale(${1 + scrollY * .0002})`;
+      accent2.style.transform = `translate(${-scrollY * .02}px,${-scrollY * .04}px) scale(${1 + scrollY * .0001})`;
+    }
+
+    // Subtle background parallax on cx-sections
+    parallaxSections.forEach(sec => {
+      const rect = sec.getBoundingClientRect();
+      if (rect.bottom < 0 || rect.top > winHeight) return;
+      const progress = (winHeight - rect.top) / (winHeight + rect.height);
+      sec.style.backgroundPositionY = (progress * 20 - 10) + 'px';
+    });
+
+    ticking = false;
+  }
+
   window.addEventListener('scroll', () => {
-    const scrolled = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-    progressBar.style.width = (scrolled * 100) + '%';
+    if (!ticking) { requestAnimationFrame(onScroll); ticking = true; }
   }, { passive: true });
-}
+})();
 
 // ---- Custom cursor ring (desktop / pointer:fine only) ----
 (function() {
@@ -127,7 +156,6 @@ if (progressBar) {
   document.addEventListener('mousedown', () => document.body.classList.add('cx-clicking'));
   document.addEventListener('mouseup', () => document.body.classList.remove('cx-clicking'));
 
-  // Elements that expand the ring
   document.querySelectorAll(
     'a,button,.cx-problem-card,.cx-scenario-card,.cx-why-item,.cx-not-item,' +
     '.svc-card,.bl-card,.cx-blog-link-card,.val-item,.tl-step,.cx-ind-item,' +
@@ -138,7 +166,6 @@ if (progressBar) {
   });
 
   (function animate() {
-    // Lerp: ring lags behind actual cursor with smooth easing
     const speed = hovering ? 0.08 : 0.12;
     rx += (mx - rx) * speed;
     ry += (my - ry) * speed;
@@ -146,21 +173,6 @@ if (progressBar) {
     ring.style.top = ry + 'px';
     requestAnimationFrame(animate);
   })();
-})();
-
-// ---- Parallax depth on split-section floating V ----
-(function() {
-  const splitVisuals = document.querySelectorAll('.split-visual');
-  if (!splitVisuals.length) return;
-  window.addEventListener('scroll', () => {
-    splitVisuals.forEach(el => {
-      const rect = el.getBoundingClientRect();
-      const center = rect.top + rect.height / 2 - window.innerHeight / 2;
-      el.querySelectorAll('.floating-v').forEach(v => {
-        v.style.transform = `translateY(${center * 0.04}px)`;
-      });
-    });
-  }, { passive: true });
 })();
 
 // ---- Spotlight glow: track mouse position on .cx-spotlight sections ----
@@ -186,7 +198,6 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
     range.value = pct;
   }
   range.addEventListener('input', () => setPos(+range.value));
-  // Touch / mouse drag on the visual
   let dragging = false;
   wrap.addEventListener('mousedown', e => { if (e.target !== range) { dragging = true; } });
   window.addEventListener('mouseup', () => { dragging = false; });
@@ -198,21 +209,6 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
   wrap.addEventListener('touchmove', e => {
     const rect = wrap.getBoundingClientRect();
     setPos(((e.touches[0].clientX - rect.left) / rect.width) * 100);
-  }, { passive: true });
-})();
-
-// ---- Scroll-triggered "Get a Quote" side tab ----
-(function() {
-  const tab = document.createElement('a');
-  tab.href = '/contact';
-  tab.className = 'cx-quote-tab';
-  tab.setAttribute('aria-label', 'Get a Quote');
-  tab.innerHTML = '<span>Get a Quote</span>';
-  document.body.appendChild(tab);
-  let shown = false;
-  window.addEventListener('scroll', () => {
-    const halfway = document.documentElement.scrollHeight / 2;
-    if (!shown && window.scrollY > halfway) { tab.classList.add('visible'); shown = true; }
   }, { passive: true });
 })();
 
@@ -237,10 +233,8 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
   const lbImg = lb.querySelector('img');
   const lbCap = lb.querySelector('.cx-lightbox-caption');
 
-  document.querySelectorAll('.cx-problem-card img, .cx-proof-card img').forEach(img => {
-    const wrap = img.parentElement;
-    wrap.classList.add('cx-proj-img-wrap');
-    wrap.style.cursor = 'zoom-in';
+  document.querySelectorAll('.cx-proj-img-wrap img').forEach(img => {
+    img.style.cursor = 'zoom-in';
     img.addEventListener('click', () => {
       lbImg.src = img.src.replace(/w=\d+/, 'w=1400');
       lbImg.alt = img.alt;
@@ -256,13 +250,10 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
 })();
 
-// ---- Back to top button ----
+// ---- Back to top smooth scroll ----
 (function() {
   const btn = document.getElementById('cx-back-top');
   if (!btn) return;
-  window.addEventListener('scroll', () => {
-    btn.classList.toggle('visible', window.scrollY > 400);
-  }, { passive: true });
   btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 })();
 
@@ -272,7 +263,7 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
   const content = document.getElementById('bp-content');
   if (!toc || !content) return;
   const headings = content.querySelectorAll('h2');
-  if (headings.length < 3) return; // only show TOC for articles with 3+ sections
+  if (headings.length < 3) return;
   const label = document.createElement('div');
   label.className = 'bp-toc-label';
   label.textContent = 'In this article';
@@ -303,18 +294,4 @@ document.querySelectorAll('.cx-spotlight').forEach(sec => {
       setTimeout(() => { btn.innerHTML = orig; btn.classList.remove('copied'); }, 2000);
     });
   });
-})();
-
-// ---- Subtle section background parallax on cx-sections ----
-(function() {
-  const sections = document.querySelectorAll('.cx-problem,.cx-compare,.cx-industries');
-  if (!sections.length) return;
-  window.addEventListener('scroll', () => {
-    sections.forEach(sec => {
-      const rect = sec.getBoundingClientRect();
-      if (rect.bottom < 0 || rect.top > window.innerHeight) return;
-      const progress = (window.innerHeight - rect.top) / (window.innerHeight + rect.height);
-      sec.style.backgroundPositionY = (progress * 20 - 10) + 'px';
-    });
-  }, { passive: true });
 })();

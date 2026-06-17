@@ -19,7 +19,7 @@ AODA compliance in commercial renovation is one of those areas where clients oft
 
 ## What AODA Requires in the Construction Context
 
-The *Accessibility for Ontarians with Disabilities Act* (AODA) establishes accessibility standards across multiple areas. For construction and renovation, the relevant standard is the **Design of Public Spaces Standard**, which was phased in starting in 2014–2016 for private sector organizations.
+The *Accessibility for Ontarians with Disabilities Act* (AODA) establishes accessibility standards across multiple areas. For construction and renovation, the relevant standard is the **Design of Public Spaces Standard**, which was phased in starting in 2014-2016 for private sector organizations.
 
 The key trigger for construction obligations is the phrase "newly constructed or redeveloped." When you renovate a commercial space, you are redeveloping it, and that triggers AODA requirements for the elements you are touching.
 
@@ -31,7 +31,7 @@ The key trigger for construction obligations is the phrase "newly constructed or
 
 **Washrooms:** Any new or significantly renovated washroom must include an accessible stall meeting OBC Appendix E requirements, grab bars, the correct turning radius, proper door swing, and hardware that can be operated with a closed fist.
 
-**Reception and service counters:** New reception counters must include a lowered portion (760–860mm above floor) for wheelchair users, with minimum 760mm knee clearance below.
+**Reception and service counters:** New reception counters must include a lowered portion (760-860mm above floor) for wheelchair users, with minimum 760mm knee clearance below.
 
 **Signage:** Tactile signage with Braille is required at certain locations, primarily room identification signs and directional signage in certain building types.
 
@@ -63,8 +63,8 @@ The most common AODA-related issues that hold up permits on commercial renovatio
 
 ## How VNG Handles AODA Requirements
 
-On every commercial renovation project, VNG reviews drawings for AODA compliance before they are submitted for permit. Where drawings show non-compliant elements, we flag them to the client before submission, not after the plan review comes back with comments, which adds 2–4 weeks to the timeline.
+On every commercial renovation project, VNG reviews drawings for AODA compliance before they are submitted for permit. Where drawings show non-compliant elements, we flag them to the client before submission, not after the plan review comes back with comments, which adds 2-4 weeks to the timeline.
 
 AODA compliance is not a design add-on. It is a building code requirement that your contractor should treat as standard scope from the start of the project.
 
-**Planning a renovation that needs to meet AODA requirements?** VNG builds all commercial projects to Ontario accessibility standards. [Request a quote](/contact/) — itemized response within 5 business days of a site visit.
+**Planning a renovation that needs to meet AODA requirements?** VNG builds all commercial projects to Ontario accessibility standards. [Request a quote](/contact/). Itemized response within 5 business days of a site visit.

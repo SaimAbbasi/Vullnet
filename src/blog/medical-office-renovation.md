@@ -58,4 +58,4 @@ If the renovation involves a clinic that needs to stay partially operational, pa
 
 A contractor who's done this before will answer these questions specifically. A contractor who hasn't will answer them generally. The difference between specific and general is the difference between a smooth project and an expensive education.
 
-**Planning a medical office or dental renovation in the GTA?** VNG specializes in ICRA-compliant clinical fit-outs. [Request a medical renovation quote](/contact/) — detailed response within 5 business days.
+**Planning a medical office or dental renovation in the GTA?** VNG specializes in ICRA-compliant clinical fit-outs. [Request a medical renovation quote](/contact/). Detailed response within 5 business days.

@@ -19,7 +19,7 @@ Industrial office build-outs are a distinct category of commercial construction,
 
 ## The Anatomy of an Industrial Office Build-Out
 
-Most industrial units in the GTA are shell-and-core: a clear-span warehouse or manufacturing floor with a designated office area, typically at the front, that requires full build-out. The office might be 10–30% of the total unit square footage, while the remaining space is kept as open warehouse or production floor.
+Most industrial units in the GTA are shell-and-core: a clear-span warehouse or manufacturing floor with a designated office area, typically at the front, that requires full build-out. The office might be 10-30% of the total unit square footage, while the remaining space is kept as open warehouse or production floor.
 
 The office component requires full fit-out: framing, insulation, drywall, ceiling, flooring, HVAC, electrical, and plumbing. The warehouse floor may require little beyond lighting upgrades, electrical for equipment, and dock levelers.
 
@@ -38,7 +38,7 @@ Key considerations for mezzanine build-outs:
 
 Standard office HVAC is designed for a conditioned office environment. Industrial spaces present a different challenge:
 
-**Temperature differential.** Industrial buildings are not fully conditioned. The warehouse space may be 10–15°C in winter while the adjacent office must be held at 21°C. Thermal separation between the office and warehouse, proper insulation, fire-rated demising walls, and correctly sized heating equipment, is essential.
+**Temperature differential.** Industrial buildings are not fully conditioned. The warehouse space may be 10-15°C in winter while the adjacent office must be held at 21°C. Thermal separation between the office and warehouse, proper insulation, fire-rated demising walls, and correctly sized heating equipment, is essential.
 
 **Makeup air.** If the building has loading docks that open frequently, or manufacturing processes that exhaust air, the office HVAC system must account for makeup air to maintain positive pressure and prevent cold air infiltration.
 
@@ -63,10 +63,10 @@ Confirm the occupancy classification and fire separation requirements with your 
 
 ## Cost Range for Industrial Office Build-Outs in Ontario
 
-Industrial office build-outs in the GTA typically range from **$80–$160 per square foot** for the office component, depending on finish level, HVAC complexity, and whether a mezzanine is involved.
+Industrial office build-outs in the GTA typically range from **$80-$160 per square foot** for the office component, depending on finish level, HVAC complexity, and whether a mezzanine is involved.
 
-Mezzanine construction adds significant cost: structural framing, decking, stairs, guardrails, and engineering typically run $50–$90 per square foot of mezzanine area on top of the standard office fit-out cost.
+Mezzanine construction adds significant cost: structural framing, decking, stairs, guardrails, and engineering typically run $50-$90 per square foot of mezzanine area on top of the standard office fit-out cost.
 
 These ranges assume the warehouse portion is not being heavily finished, just lighting, electrical for equipment, and dock equipment if needed.
 
-[VNG has completed industrial build-outs across the GTA, including mezzanine offices, manufacturing support spaces, and combined office-warehouse fit-outs.](/contact) Contact us for a site visit and itemized estimate.
+[VNG has completed industrial build-outs across the GTA, including mezzanine offices, manufacturing support spaces, and combined office-warehouse fit-outs.](/contact/) Contact us for a site visit and itemized estimate.

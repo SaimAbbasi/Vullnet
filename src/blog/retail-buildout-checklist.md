@@ -44,7 +44,7 @@ LVP, polished concrete, tile, and carpet tile all typically go in after paint bu
 Confirm responsibility clearly in the contract, as storefront work often falls in the gap between tenant and landlord scope.
 
 **9. Millwork and fixtures**
-Custom millwork has long lead times (6–8 weeks). Order placed in week one or it becomes the critical path item at handover.
+Custom millwork has long lead times (6-8 weeks). Order placed in week one or it becomes the critical path item at handover.
 
 **10. Paint: prime and two finish coats**
 Confirm colour selections are locked in before prime coat. Changes after priming cost money and time.

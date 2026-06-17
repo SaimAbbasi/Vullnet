@@ -14,7 +14,7 @@ jsonLd: |
         "name": "How much does a commercial renovation cost in Toronto?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Commercial renovation costs in Toronto typically range from $60 to $250+ per square foot depending on scope, finishes, and sector. A basic office tenant improvement runs $60–$120/sqft. A mid-grade corporate fit-out is $120–$180/sqft. Medical and restaurant spaces with specialized systems typically start at $150/sqft and go higher. VNG provides fully itemized quotes with no allowances, the number you receive is the number you pay."
+          "text": "Commercial renovation costs in Toronto typically range from $60 to $250+ per square foot depending on scope, finishes, and sector. A basic office tenant improvement runs $60-$120/sqft. A mid-grade corporate fit-out is $120-$180/sqft. Medical and restaurant spaces with specialized systems typically start at $150/sqft and go higher. VNG provides fully itemized quotes with no allowances, the number you receive is the number you pay."
         }
       },
       {
@@ -22,7 +22,7 @@ jsonLd: |
         "name": "How long does a commercial renovation take?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Timeline depends heavily on scope and permit requirements. A straightforward 2,000–3,000 sq ft office refresh can complete in 4–6 weeks. A full shell-to-turnkey tenant improvement in the 5,000–10,000 sq ft range typically runs 8–14 weeks. Medical and restaurant projects with specialized trades often need 12–20 weeks from permit issuance. VNG provides a detailed milestone schedule with every quote so you know exactly what to plan around."
+          "text": "Timeline depends heavily on scope and permit requirements. A straightforward 2,000-3,000 sq ft office refresh can complete in 4-6 weeks. A full shell-to-turnkey tenant improvement in the 5,000-10,000 sq ft range typically runs 8-14 weeks. Medical and restaurant projects with specialized trades often need 12-20 weeks from permit issuance. VNG provides a detailed milestone schedule with every quote so you know exactly what to plan around."
         }
       },
       {
@@ -113,10 +113,10 @@ jsonLd: |
         <div class="cx-faq-a">
           <p>Commercial renovation costs in Toronto typically range from <strong>$60 to $250+ per square foot</strong> depending on scope, finishes, and sector:</p>
           <ul style="margin:12px 0 12px 20px;color:var(--gray2)">
-            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Basic office TI:</strong> $60–$120/sqft, drywall, ceilings, flooring, paint, basic millwork</li>
-            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Mid-grade corporate fit-out:</strong> $120–$180/sqft, custom millwork, upgraded finishes, boardrooms</li>
-            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Medical / dental:</strong> $150–$250+/sqft, specialized plumbing, ICRA compliance, clinical finishes</li>
-            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Restaurant fit-out:</strong> $180–$350+/sqft, commercial kitchen, hood, grease trap, FOH finishes</li>
+            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Basic office TI:</strong> $60-$120/sqft, drywall, ceilings, flooring, paint, basic millwork</li>
+            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Mid-grade corporate fit-out:</strong> $120-$180/sqft, custom millwork, upgraded finishes, boardrooms</li>
+            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Medical / dental:</strong> $150-$250+/sqft, specialized plumbing, ICRA compliance, clinical finishes</li>
+            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Restaurant fit-out:</strong> $180-$350+/sqft, commercial kitchen, hood, grease trap, FOH finishes</li>
           </ul>
           <p>VNG provides fully itemized quotes with no allowances. The number you receive is the number you pay.</p>
         </div>
@@ -127,9 +127,9 @@ jsonLd: |
         <div class="cx-faq-a">
           <p>Timeline depends on scope and permit requirements:</p>
           <ul style="margin:12px 0 12px 20px;color:var(--gray2)">
-            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Office refresh (2,000–3,000 sqft):</strong> 4–6 weeks</li>
-            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Full TI (5,000–10,000 sqft):</strong> 8–14 weeks</li>
-            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Medical / restaurant:</strong> 12–20 weeks from permit issuance</li>
+            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Office refresh (2,000-3,000 sqft):</strong> 4-6 weeks</li>
+            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Full TI (5,000-10,000 sqft):</strong> 8-14 weeks</li>
+            <li style="margin-bottom:6px"><strong style="color:var(--pure)">Medical / restaurant:</strong> 12-20 weeks from permit issuance</li>
           </ul>
           <p>VNG includes a detailed milestone schedule with every quote so you know exactly what to plan around before signing anything.</p>
         </div>
@@ -266,8 +266,8 @@ function calcEstimate() {
   const lowTotal = Math.round(low * sqft / 1000) * 1000;
   const highTotal = Math.round(high * sqft / 1000) * 1000;
   const fmt = n => '$' + n.toLocaleString('en-CA');
-  document.getElementById('calc-range').textContent = fmt(lowTotal) + ' – ' + fmt(highTotal);
-  document.getElementById('calc-rate').textContent = '$' + low + '–$' + high + ' per sq ft · ' + sqft.toLocaleString('en-CA') + ' sq ft';
+  document.getElementById('calc-range').textContent = fmt(lowTotal) + ' - ' + fmt(highTotal);
+  document.getElementById('calc-rate').textContent = '$' + low + '-$' + high + ' per sq ft · ' + sqft.toLocaleString('en-CA') + ' sq ft';
   result.style.display='block';
   placeholder.style.display='none';
 }

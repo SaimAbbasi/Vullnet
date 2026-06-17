@@ -21,7 +21,7 @@ Flooring is one of the highest-impact finish decisions in an office renovation, 
 
 LVT has become the dominant flooring choice in commercial office renovations in the GTA over the past decade, and for good reason. It offers the visual character of wood or stone, strong durability, easy maintenance, and a cost range that works for most commercial budgets.
 
-**Cost range:** $8–$18 per square foot installed, depending on product quality and subfloor condition.
+**Cost range:** $8-$18 per square foot installed, depending on product quality and subfloor condition.
 
 **Best for:** Open-plan offices, corridors, reception areas, break rooms.
 
@@ -34,7 +34,7 @@ LVT has become the dominant flooring choice in commercial office renovations in 
 
 Carpet tile remains popular in open-plan office environments where acoustic performance matters. The tile format (typically 50cm x 50cm squares) allows damaged tiles to be replaced individually and enables creative pattern layouts.
 
-**Cost range:** $7–$16 per square foot installed, depending on product specification and pattern complexity.
+**Cost range:** $7-$16 per square foot installed, depending on product specification and pattern complexity.
 
 **Best for:** Open-plan workstations, conference rooms, private offices.
 
@@ -47,7 +47,7 @@ Carpet tile remains popular in open-plan office environments where acoustic perf
 
 Polished concrete uses the existing concrete slab as the finished floor surface, grinding and polishing it to a specified sheen level. The result is a durable, low-maintenance floor with a distinctive industrial-modern aesthetic.
 
-**Cost range:** $6–$14 per square foot for grinding and polishing, depending on sheen level (cream to high gloss) and the number of passes required. Grinding out significant surface defects or achieving high sheen on a poor-quality slab adds cost.
+**Cost range:** $6-$14 per square foot for grinding and polishing, depending on sheen level (cream to high gloss) and the number of passes required. Grinding out significant surface defects or achieving high sheen on a poor-quality slab adds cost.
 
 **Best for:** Lobbies, reception areas, tech offices, creative/agency spaces, retail-adjacent areas.
 
@@ -60,7 +60,7 @@ Polished concrete uses the existing concrete slab as the finished floor surface,
 
 Porcelain tile is appropriate for washrooms, kitchens, server rooms, and entrance vestibules, areas that require durability, moisture resistance, and easy cleaning. It is not typically used throughout an office because of cost and the acoustic hardness of the surface.
 
-**Cost range:** $12–$25+ per square foot installed, depending on tile size, format, and pattern complexity. Large-format tiles (60x120cm and larger) require more precise subfloor leveling and more skilled installation.
+**Cost range:** $12-$25+ per square foot installed, depending on tile size, format, and pattern complexity. Large-format tiles (60x120cm and larger) require more precise subfloor leveling and more skilled installation.
 
 **Practical notes:**
 - Grout maintenance is the long-term consideration; unsanded or epoxy grout in commercial settings reduces maintenance requirements
@@ -70,7 +70,7 @@ Porcelain tile is appropriate for washrooms, kitchens, server rooms, and entranc
 
 Engineered hardwood in commercial applications is typically reserved for high-end private offices, boardrooms, or heritage-style renovations. It provides warmth and a premium aesthetic that resonates in certain contexts.
 
-**Cost range:** $15–$30+ per square foot installed for commercial-grade engineered hardwood.
+**Cost range:** $15-$30+ per square foot installed for commercial-grade engineered hardwood.
 
 **Practical notes:**
 - Hardwood does not perform well under rolling office chair loads without a mat; in workstation areas, chair mats must be specified
@@ -87,4 +87,4 @@ The single most common source of flooring cost surprises is subfloor condition. 
 
 Proper site assessment before pricing, including a floor levelness check, is the only way to avoid surprises. Any reputable flooring contractor or general contractor should perform this assessment before committing to a price.
 
-[VNG includes subfloor assessment in our pre-construction site review](/contact) and will not quote flooring without knowing what we are installing over.
+[VNG includes subfloor assessment in our pre-construction site review](/contact/) and will not quote flooring without knowing what we are installing over.

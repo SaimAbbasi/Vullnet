@@ -19,7 +19,7 @@ When a commercial renovation misses its handover date, the conversation usually 
 
 ## The Obvious Costs
 
-**Holdover rent or swing space extension.** If a tenant is paying for temporary space while their renovation completes, every week of delay is a direct cash cost. In the GTA commercial market, swing space for a 5,000 sq ft team runs $15,000–$40,000 per month. A two-week delay costs real money.
+**Holdover rent or swing space extension.** If a tenant is paying for temporary space while their renovation completes, every week of delay is a direct cash cost. In the GTA commercial market, swing space for a 5,000 sq ft team runs $15,000-$40,000 per month. A two-week delay costs real money.
 
 **Delayed opening revenue.** For retail and restaurant operators, the revenue clock doesn't start until doors open. A two-week delay isn't just two weeks of lost revenue; it's two weeks of continued staffing costs, lease obligations, and supplier commitments with nothing coming in.
 
@@ -49,4 +49,4 @@ They build float into the schedule rather than assuming best-case. They over-com
 
 That's not a special service. It should be the baseline. The problem is it's not.
 
-**Need a contractor who commits to dates, not just targets?** VNG has delivered 1,000+ commercial projects on deadline. [Get a quote](/contact/) — we will tell you the realistic timeline upfront, not after problems arise.
+**Need a contractor who commits to dates, not just targets?** VNG has delivered 1,000+ commercial projects on deadline. [Get a quote](/contact/). We will tell you the realistic timeline upfront, not after problems arise.

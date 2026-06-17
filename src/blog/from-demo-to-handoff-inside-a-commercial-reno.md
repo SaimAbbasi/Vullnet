@@ -37,7 +37,7 @@ Hoarding goes up on Monday. By Tuesday, we're stripping the existing ceiling gri
 
 Demo on a 3,500 sq ft open office floor takes three days when it's properly resourced.
 
-## Weeks 3–4: Framing and MEP Rough-in
+## Weeks 3-4: Framing and MEP Rough-in
 
 New partition layout goes up per approved drawings. Our framing crew is in-house. Backing goes in at every location specified for wall-mounted items, and at standard heights for monitors and shelving even when not explicitly drawn.
 
@@ -61,7 +61,7 @@ By end of week 6: every surface is painted, every floor is down, every light is 
 
 Millwork delivery and installation Monday through Wednesday. Reception desk, office built-ins, break room cabinetry.
 
-Thursday: full site clean and punch list walkthrough with the PM. We walk every room, every surface, every fixture. Typically 15–30 items on a project this size. By end of Thursday, 80% are closed. Friday: punch list complete.
+Thursday: full site clean and punch list walkthrough with the PM. We walk every room, every surface, every fixture. Typically 15-30 items on a project this size. By end of Thursday, 80% are closed. Friday: punch list complete.
 
 Friday afternoon: keys.
 

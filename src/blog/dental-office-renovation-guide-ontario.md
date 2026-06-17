@@ -63,11 +63,11 @@ In Ontario, dental office space must meet an A2 assembly classification in some 
 
 ## What a Dental Office Renovation Costs in the GTA
 
-Dental office construction in the GTA ranges from approximately $180–$350+ per square foot, depending on the number of operatories, level of cabinetry finish, and complexity of the plumbing and mechanical systems.
+Dental office construction in the GTA ranges from approximately $180-$350+ per square foot, depending on the number of operatories, level of cabinetry finish, and complexity of the plumbing and mechanical systems.
 
-A typical 1,500–2,000 sq ft dental office with 4–5 operatories, a sterilization room, consultation room, private office, and reception would budget in the $280,000–$500,000+ range for construction, not including dental equipment, chairs, X-ray equipment, and IT systems.
+A typical 1,500-2,000 sq ft dental office with 4-5 operatories, a sterilization room, consultation room, private office, and reception would budget in the $280,000-$500,000+ range for construction, not including dental equipment, chairs, X-ray equipment, and IT systems.
 
-The dental equipment package (supplied by the dealer) is separate from the construction contract and typically runs $40,000–$80,000+ per operatory.
+The dental equipment package (supplied by the dealer) is separate from the construction contract and typically runs $40,000-$80,000+ per operatory.
 
 ## What to Look for in a Dental Office Contractor
 

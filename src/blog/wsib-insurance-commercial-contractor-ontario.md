@@ -75,4 +75,4 @@ On larger projects, confirm the contractor maintains tools and equipment insuran
 
 Requesting and verifying these documents takes 15 minutes. The exposure you carry without them can be significant. Make it a standard step in your contractor selection process, not an afterthought after the contract is signed.
 
-[VNG provides current WSIB clearance certificates and CGL certificates of insurance naming the client as additional insured on every project.](/contact) Contact us to request documentation for your project.
+[VNG provides current WSIB clearance certificates and CGL certificates of insurance naming the client as additional insured on every project.](/contact/) Contact us to request documentation for your project.

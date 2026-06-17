@@ -15,7 +15,7 @@ furtherReading:
     url: /contact/
 ---
 
-Budget overruns in commercial renovation are common enough that many project managers simply budget a 15–20% contingency and accept the problem as unavoidable. It is not unavoidable. Most overruns trace back to a small set of predictable causes, and all of them can be addressed before the project starts.
+Budget overruns in commercial renovation are common enough that many project managers simply budget a 15-20% contingency and accept the problem as unavoidable. It is not unavoidable. Most overruns trace back to a small set of predictable causes, and all of them can be addressed before the project starts.
 
 ## 1. Allowances in the Original Quote
 

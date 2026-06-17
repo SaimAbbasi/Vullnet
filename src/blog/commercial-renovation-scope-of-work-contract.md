@@ -56,7 +56,7 @@ A well-written change order clause defines:
 
 A commercial renovation contract should specify a payment schedule that aligns cash flow with project progress. Common structures:
 
-- **Deposit on contract execution** (typically 10–20% to mobilize and order materials)
+- **Deposit on contract execution** (typically 10-20% to mobilize and order materials)
 - **Progress payments** at defined milestones (rough-in complete, drywall complete, substantial completion)
 - **Holdback**, Ontario's *Construction Act* requires a 10% holdback on each progress payment that is retained until 45 days after a certificate of substantial completion is published. This is a statutory requirement, not optional.
 
@@ -68,7 +68,7 @@ The contract should define what constitutes **substantial completion**, the poin
 
 The deficiency process should specify:
 - How deficiencies are documented (a written list, not verbal notes)
-- The timeline for the contractor to remedy deficiencies (typically 14–30 days)
+- The timeline for the contractor to remedy deficiencies (typically 14-30 days)
 - What happens if deficiencies are not remedied within the specified period (the client's right to have work completed by others at the contractor's expense)
 
 ## Warranties
@@ -83,4 +83,4 @@ If a dispute arises, how will it be resolved? Litigation is expensive and slow. 
 
 Ontario's *Construction Act* also provides specific mechanisms for resolving construction payment disputes, including adjudication, a faster alternative to litigation for payment disputes.
 
-[VNG provides fully detailed written proposals and contract documents for all commercial renovation projects.](/contact) Contact us to discuss your project scope.
+[VNG provides fully detailed written proposals and contract documents for all commercial renovation projects.](/contact/) Contact us to discuss your project scope.

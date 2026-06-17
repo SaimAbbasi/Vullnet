@@ -136,20 +136,19 @@
 </script>
 {% endif %}
 
-<!-- HubSpot tracking, replace XXXXXXX with your HubSpot portal ID -->
-<!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/XXXXXXX.js"></script> -->
+<script>
+if(localStorage.getItem('vng-cookie-consent')==='accepted'){
+  var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-3LTM21K8SC';document.head.appendChild(s);
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-3LTM21K8SC');
+}
+</script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3LTM21K8SC"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-3LTM21K8SC');</script>
-
-<link rel="alternate" type="application/rss+xml" title="VNG Blog" href="/blog/feed.xml">
-<link rel="preconnect" href="https://www.googletagmanager.com">
-<link rel="preconnect" href="https://www.google-analytics.com">
 <link rel="preconnect" href="https://images.unsplash.com">
 <link rel="preload" href="/public/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/public/fonts/oswald-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/public/css/fonts.css">
 <link rel="stylesheet" href="/public/css/style.css">
+<link rel="alternate" type="application/rss+xml" title="VNG Blog" href="/blog/feed.xml">
 </head>
 <body>
 
@@ -190,7 +189,7 @@
 <script src="/public/js/main.js"></script>
 
 <!-- Cookie consent banner (PIPEDA) -->
-<div id="cx-cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#111;border-top:1px solid rgba(255,255,255,.1);padding:16px clamp(16px,4vw,48px);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+<div id="cx-cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#111;border-top:1px solid rgba(255,255,255,.1);padding:16px clamp(16px,4vw,48px);align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
   <p style="margin:0;font-size:.8rem;color:var(--gray2);max-width:680px;line-height:1.6">We use Google Analytics to understand how visitors use our site. No personally identifiable information is collected. <a href="/privacy" style="color:var(--red);text-decoration:none">Privacy Policy</a></p>
   <div style="display:flex;gap:10px;flex-shrink:0">
     <button id="cx-cookie-decline" style="padding:8px 16px;font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:transparent;border:1px solid rgba(255,255,255,.15);color:var(--gray2);cursor:pointer">Decline</button>
@@ -205,6 +204,7 @@
   document.getElementById('cx-cookie-accept').addEventListener('click', function(){
     localStorage.setItem('vng-cookie-consent','accepted');
     banner.style.display = 'none';
+    if(!window.gtag){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-3LTM21K8SC';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;gtag('js',new Date());gtag('config','G-3LTM21K8SC');}
   });
   document.getElementById('cx-cookie-decline').addEventListener('click', function(){
     localStorage.setItem('vng-cookie-consent','declined');

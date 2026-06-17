@@ -34,7 +34,7 @@ Each of these involves a specialized trade or inspection. Stack them in a small 
 
 A full restaurant renovation from shell generally runs in this sequence:
 
-1. Permit drawing approval (2–4 weeks depending on municipality)
+1. Permit drawing approval (2-4 weeks depending on municipality)
 2. Demolition of existing fit-out
 3. Rough plumbing: floor drains, grease trap, hand wash rough-in
 4. Gas rough-in
@@ -52,7 +52,7 @@ The critical path items: permits, hood installation, and health inspection sched
 
 ## Permit Considerations
 
-Restaurant renovations in Toronto require Building Permit, Mechanical Permit, Electrical Permit, and in most cases a Public Health pre-opening inspection. Budget 3–6 weeks for permit issuance after drawings submission. Grease traps require a separate review from Toronto Water.
+Restaurant renovations in Toronto require Building Permit, Mechanical Permit, Electrical Permit, and in most cases a Public Health pre-opening inspection. Budget 3-6 weeks for permit issuance after drawings submission. Grease traps require a separate review from Toronto Water.
 
 ## Phasing Around an Operating Restaurant
 
@@ -69,4 +69,4 @@ A restaurant renovation contractor should be able to show you experience with he
 
 The difference between a 10-week restaurant reno and a 16-week one usually comes down to trade coordination quality in weeks 3 through 6.
 
-**Opening a restaurant in Toronto?** VNG delivers full restaurant fit-outs from demo to health department sign-off. [Request a quote](/contact/) — 5-day turnaround, committed opening dates. See our [restaurant renovation page](/restaurant-renovation-toronto/) for more.
+**Opening a restaurant in Toronto?** VNG delivers full restaurant fit-outs from demo to health department sign-off. [Request a quote](/contact/). 5-day turnaround, committed opening dates. See our [restaurant renovation page](/restaurant-renovation-toronto/) for more.
