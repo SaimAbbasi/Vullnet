@@ -110,7 +110,7 @@ h1,h2,h3,.logo-text,.stat-num,.big-num{font-family:'Oswald',sans-serif;text-tran
 .btn-red:hover::before{transform:translateX(100%)}
 .btn-red:hover{background:#c22828;transform:translateY(-2px);box-shadow:0 8px 32px rgba(216,48,48,.3)}
 .btn-ghost{background:transparent;color:var(--pure);border:1px solid var(--gray1)}
-.btn-ghost:hover{border-color:var(--pure);transform:translateY(-2px)}
+.btn-ghost:hover{border-color:var(--pure);transform:translateY(-2px);background:rgba(255,255,255,.06)}
 .btn svg{transition:transform .25s}
 .btn:hover svg{transform:translate(3px,-3px)}
 .arrow-icon{width:16px;height:16px}
@@ -385,11 +385,11 @@ h1,h2,h3,.logo-text,.stat-num,.big-num{font-family:'Oswald',sans-serif;text-tran
 /* ---- CX: PROOF ---- */
 .cx-proof{background:var(--dark)}
 .cx-proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:52px}
-.cx-proof-card{background:#1a1a1a;padding:36px 32px}
+.cx-proof-card{background:#1a1a1a;padding:36px 32px;border-left:3px solid var(--red)}
 .cx-proof-quote{font-size:1.05rem;line-height:1.7;color:var(--pure);margin-bottom:28px;font-style:italic}
 .cx-proof-quote::before{content:'\201C';font-size:2.4rem;line-height:1;color:var(--red);display:block;margin-bottom:8px;font-style:normal}
 .cx-proof-attr{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gray1)}
-.cx-proof-attr span{color:var(--red)}
+.cx-proof-attr span{color:var(--red);font-weight:600}
 @media(max-width:900px){.cx-proof-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.cx-proof-grid{grid-template-columns:1fr}}
 
