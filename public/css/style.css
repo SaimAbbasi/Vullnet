@@ -26,6 +26,17 @@ h1,h2,h3,.logo-text,.stat-num,.big-num{font-family:'Oswald',sans-serif;text-tran
 .nav-cta-btn::after{display:none!important}
 .nav-phone{color:var(--red)!important;font-size:.75rem;font-weight:700;letter-spacing:.08em}
 .nav-phone::after{display:none!important}
+/* ---- NAV DROPDOWN ---- */
+.has-dropdown{position:relative}
+.dropdown-panel{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(6px);background:rgba(22,22,22,.98);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.08);padding:20px 24px;display:grid;grid-template-columns:1fr 1fr;gap:0 28px;min-width:340px;opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility .2s;z-index:200;pointer-events:none}
+.has-dropdown:hover .dropdown-panel{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0);pointer-events:auto}
+.dropdown-panel a{display:block;font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gray2);text-decoration:none;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.04);transition:color .2s,padding-left .2s}
+.dropdown-panel a:last-child{border-bottom:none}
+.dropdown-panel a::after{display:none!important}
+.dropdown-panel a:hover{color:var(--pure);padding-left:6px}
+.chevron{vertical-align:middle;margin-left:4px;transition:transform .2s;display:inline-block}
+.has-dropdown:hover .chevron{transform:rotate(180deg)}
+@media(max-width:768px){.dropdown-panel{display:none!important}}
 .footer-phone{color:var(--pure)!important;font-size:1rem;font-weight:600}
 .footer-social{display:flex;gap:14px;margin-top:18px}
 .footer-social a{color:var(--gray1);transition:color .2s}
